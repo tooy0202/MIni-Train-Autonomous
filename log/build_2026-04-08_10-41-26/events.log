@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.001277] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.002770] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.099900] (-) TimerEvent: {}
+[0.203713] (-) TimerEvent: {}
+[0.304819] (-) TimerEvent: {}
+[0.405887] (-) TimerEvent: {}
+[0.506977] (-) TimerEvent: {}
+[0.608135] (-) TimerEvent: {}
+[0.709145] (-) TimerEvent: {}
+[0.810232] (-) TimerEvent: {}
+[0.911374] (-) TimerEvent: {}
+[1.012407] (-) TimerEvent: {}
+[1.113525] (-) TimerEvent: {}
+[1.214550] (-) TimerEvent: {}
+[1.383781] (-) TimerEvent: {}
+[1.484853] (-) TimerEvent: {}
+[1.586041] (-) TimerEvent: {}
+[1.692206] (-) TimerEvent: {}
+[1.797452] (-) TimerEvent: {}
+[1.901139] (-) TimerEvent: {}
+[2.002666] (-) TimerEvent: {}
+[2.104293] (-) TimerEvent: {}
+[2.205836] (-) TimerEvent: {}
+[2.307405] (-) TimerEvent: {}
+[2.408983] (-) TimerEvent: {}
+[2.510567] (-) TimerEvent: {}
+[2.612074] (-) TimerEvent: {}
+[2.713571] (-) TimerEvent: {}
+[2.815080] (-) TimerEvent: {}
+[2.916663] (-) TimerEvent: {}
+[3.018195] (-) TimerEvent: {}
+[3.119286] (-) TimerEvent: {}
+[3.220387] (-) TimerEvent: {}
+[3.321460] (-) TimerEvent: {}
+[3.422563] (-) TimerEvent: {}
+[3.523713] (-) TimerEvent: {}
+[3.624762] (-) TimerEvent: {}
+[3.725759] (-) TimerEvent: {}
+[3.826785] (-) TimerEvent: {}
+[3.927830] (-) TimerEvent: {}
+[4.028895] (-) TimerEvent: {}
+[4.130106] (-) TimerEvent: {}
+[4.192946] (my_first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_package', 'build', '--build-base', '/home/jetson/ws_1/build/my_first_package/build', 'install', '--record', '/home/jetson/ws_1/build/my_first_package/install.log', '--install-scripts', '$base/lib/my_first_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/my_first_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'th_TH.UTF-8', 'SSH_AGENT_PID': '3056', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'th_TH.UTF-8', 'MANAGERPID': '1738', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', 'JOURNAL_STREAM': '8:55451', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/3133,unix/jetson-desktop:/tmp/.ICE-unix/3133', 'INVOCATION_ID': 'ca4c178b77e944568f4c1cc294d3b22b', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dba9d1cf_b757_45f8_9354_92ce4ef80ea7', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.150', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/my_first_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/my_first_package', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/my_first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages:/home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[4.233564] (-) TimerEvent: {}
+[4.345210] (-) TimerEvent: {}
+[4.447384] (-) TimerEvent: {}
+[4.548413] (-) TimerEvent: {}
+[4.649474] (-) TimerEvent: {}
+[4.750480] (-) TimerEvent: {}
+[4.852226] (-) TimerEvent: {}
+[4.953312] (-) TimerEvent: {}
+[5.054382] (-) TimerEvent: {}
+[5.155562] (-) TimerEvent: {}
+[5.256597] (-) TimerEvent: {}
+[5.357645] (-) TimerEvent: {}
+[5.458709] (-) TimerEvent: {}
+[5.559838] (-) TimerEvent: {}
+[5.661384] (-) TimerEvent: {}
+[5.756961] (my_first_package) StdoutLine: {'line': b'running egg_info\n'}
+[5.760954] (my_first_package) StdoutLine: {'line': b'writing ../../build/my_first_package/my_first_package.egg-info/PKG-INFO\n'}
+[5.761624] (-) TimerEvent: {}
+[5.762402] (my_first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_package/my_first_package.egg-info/dependency_links.txt\n'}
+[5.763600] (my_first_package) StdoutLine: {'line': b'writing entry points to ../../build/my_first_package/my_first_package.egg-info/entry_points.txt\n'}
+[5.764482] (my_first_package) StdoutLine: {'line': b'writing requirements to ../../build/my_first_package/my_first_package.egg-info/requires.txt\n'}
+[5.765217] (my_first_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_package/my_first_package.egg-info/top_level.txt\n'}
+[5.861883] (-) TimerEvent: {}
+[5.959619] (my_first_package) StdoutLine: {'line': b"reading manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[5.962002] (-) TimerEvent: {}
+[5.965027] (my_first_package) StdoutLine: {'line': b"writing manifest file '../../build/my_first_package/my_first_package.egg-info/SOURCES.txt'\n"}
+[5.966023] (my_first_package) StdoutLine: {'line': b'running build\n'}
+[5.966710] (my_first_package) StdoutLine: {'line': b'running build_py\n'}
+[5.972194] (my_first_package) StdoutLine: {'line': b'copying my_first_package/my_first_node.py -> /home/jetson/ws_1/build/my_first_package/build/lib/my_first_package\n'}
+[5.974408] (my_first_package) StdoutLine: {'line': b'running install\n'}
+[5.979136] (my_first_package) StdoutLine: {'line': b'running install_lib\n'}
+[5.985554] (my_first_package) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/my_first_package/build/lib/my_first_package/my_first_node.py -> /home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages/my_first_package\n'}
+[5.989342] (my_first_package) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages/my_first_package/my_first_node.py to my_first_node.cpython-38.pyc\n'}
+[5.999669] (my_first_package) StdoutLine: {'line': b'running install_data\n'}
+[6.001152] (my_first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.011125] (my_first_package) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages/my_first_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.013772] (my_first_package) StdoutLine: {'line': b'Copying ../../build/my_first_package/my_first_package.egg-info to /home/jetson/ws_1/install/my_first_package/lib/python3.8/site-packages/my_first_package-0.0.0-py3.8.egg-info\n'}
+[6.023136] (my_first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[6.062218] (-) TimerEvent: {}
+[6.118548] (my_first_package) StdoutLine: {'line': b'Installing my_node script to /home/jetson/ws_1/install/my_first_package/lib/my_first_package\n'}
+[6.120703] (my_first_package) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/my_first_package/install.log'\n"}
+[6.162606] (-) TimerEvent: {}
+[6.272503] (my_first_package) CommandEnded: {'returncode': 0}
+[6.276172] (-) TimerEvent: {}
+[6.339098] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[6.345627] (-) EventReactorShutdown: {}
