@@ -1,0 +1,24 @@
+[4.623s] Invoking command in '/home/jetson/ws_1/src/lidar_avoidance': PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_avoidance build --build-base /home/jetson/ws_1/build/lidar_avoidance/build install --record /home/jetson/ws_1/build/lidar_avoidance/install.log --install-scripts $base/lib/lidar_avoidance --single-version-externally-managed install_data
+[6.201s] running egg_info
+[6.205s] writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO
+[6.206s] writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt
+[6.208s] writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt
+[6.210s] writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt
+[6.210s] writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt
+[6.423s] reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+[6.430s] writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+[6.431s] running build
+[6.432s] running build_py
+[6.436s] copying lidar_avoidance/avoidance_node.py -> /home/jetson/ws_1/build/lidar_avoidance/build/lib/lidar_avoidance
+[6.440s] running install
+[6.445s] running install_lib
+[6.453s] copying /home/jetson/ws_1/build/lidar_avoidance/build/lib/lidar_avoidance/avoidance_node.py -> /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance
+[6.459s] byte-compiling /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance/avoidance_node.py to avoidance_node.cpython-38.pyc
+[6.468s] running install_data
+[6.471s] running install_egg_info
+[6.480s] removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+[6.483s] Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info
+[6.493s] running install_scripts
+[6.595s] Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance
+[6.598s] writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'
+[6.764s] Invoked command in '/home/jetson/ws_1/src/lidar_avoidance' returned '0': PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_avoidance build --build-base /home/jetson/ws_1/build/lidar_avoidance/build install --record /home/jetson/ws_1/build/lidar_avoidance/install.log --install-scripts $base/lib/lidar_avoidance --single-version-externally-managed install_data

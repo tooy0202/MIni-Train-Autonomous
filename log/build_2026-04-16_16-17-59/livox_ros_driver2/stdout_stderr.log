@@ -1,0 +1,26 @@
+[  1%] Built target livox_interfaces2__cpp
+[  8%] Built target livox_interfaces2__rosidl_generator_c
+[ 12%] Built target livox_ros_driver2_node
+[ 19%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 54%] Built target livox_interfaces2
+[ 56%] Built target livox_interfaces2__py
+[ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[ 64%] Built target livox_interfaces2__python
+[ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[ 73%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 73%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[01m[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:[m[K In static member function ‘[01m[Kstatic void livox_ros::PubHandler::OnLivoxLidarPointCloudCallback(uint32_t, uint8_t, LivoxLidarEthernetPacket*, void*)[m[K’:
+[01m[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:135:103:[m[K [01;31m[Kerror: [m[K‘[01m[KkLivoxLidarTypeMid360s[m[K’ is not a member of ‘[01m[KLivoxLidarDeviceType[m[K’
+  135 | Type::kLivoxLidarTypeMid360||dev_type==LivoxLidarDeviceType::[01;31m[KkLivoxLidarTypeMid360s[m[K) {
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:193: CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/livox_ros_driver2.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.000991] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.001733] (lidar_avoidance) JobQueued: {'identifier': 'lidar_avoidance', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/jetson/ws_1/install/livox_ros_driver2')])}
+[0.003018] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.084367] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[0.093358] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[0.101168] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ws_1/build/livox_ros_driver2', '--', '-j6', '-l6'], 'cwd': '/home/jetson/ws_1/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '2959'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.6.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1677'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ws_1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1424620042367'), ('JOURNAL_STREAM', '8:52055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jetson-desktop:@/tmp/.ICE-unix/3157,unix/jetson-desktop:/tmp/.ICE-unix/3157'), ('INVOCATION_ID', '404ea87d669749bab79e6b5f83efc9aa'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d323df0_772c_41e8_b88a_1f8a1a307f6c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ws_1/install/livox_ros_driver2:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ws_1/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/ws_1/install/livox_ros_driver2:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[0.117120] (-) TimerEvent: {}
+[0.219824] (-) TimerEvent: {}
+[0.323079] (-) TimerEvent: {}
+[0.424197] (-) TimerEvent: {}
+[0.525606] (-) TimerEvent: {}
+[0.626786] (-) TimerEvent: {}
+[0.699736] (livox_ros_driver2) StdoutLine: {'line': b'[  7%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[0.707238] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target livox_interfaces2__cpp\n'}
+[0.727070] (-) TimerEvent: {}
+[0.753683] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target livox_ros_driver2_node\n'}
+[0.827324] (-) TimerEvent: {}
+[0.928496] (-) TimerEvent: {}
+[0.938054] (livox_ros_driver2) StdoutLine: {'line': b'[ 24%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[0.939412] (livox_ros_driver2) StdoutLine: {'line': b'[ 26%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[0.945833] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[0.962103] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[0.985501] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[1.028709] (-) TimerEvent: {}
+[1.129849] (-) TimerEvent: {}
+[1.231017] (-) TimerEvent: {}
+[1.235775] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[1.331283] (-) TimerEvent: {}
+[1.432549] (-) TimerEvent: {}
+[1.450287] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2\n'}
+[1.532760] (-) TimerEvent: {}
+[1.634006] (-) TimerEvent: {}
+[1.654713] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__py\n'}
+[1.734254] (-) TimerEvent: {}
+[1.835988] (-) TimerEvent: {}
+[1.913411] (livox_ros_driver2) StdoutLine: {'line': b'[ 84%] Built target livox_ros_driver2\n'}
+[1.918614] (livox_ros_driver2) StdoutLine: {'line': b'[ 89%] Built target livox_interfaces2__python\n'}
+[1.936246] (-) TimerEvent: {}
+[2.037450] (-) TimerEvent: {}
+[2.138674] (-) TimerEvent: {}
+[2.152903] (livox_ros_driver2) StdoutLine: {'line': b'[ 94%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[2.154245] (livox_ros_driver2) StdoutLine: {'line': b'[ 96%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.177509] (livox_ros_driver2) StdoutLine: {'line': b'[100%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[2.238883] (-) TimerEvent: {}
+[2.299260] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[2.309300] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'install'}
+[2.340871] (-) TimerEvent: {}
+[2.415671] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ws_1/build/livox_ros_driver2'], 'cwd': '/home/jetson/ws_1/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '2959'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.6.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1677'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ws_1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1424620042367'), ('JOURNAL_STREAM', '8:52055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jetson-desktop:@/tmp/.ICE-unix/3157,unix/jetson-desktop:/tmp/.ICE-unix/3157'), ('INVOCATION_ID', '404ea87d669749bab79e6b5f83efc9aa'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8d323df0_772c_41e8_b88a_1f8a1a307f6c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.115'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ws_1/install/livox_ros_driver2:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ws_1/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/jetson/ws_1/install/livox_ros_driver2:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[2.453453] (-) TimerEvent: {}
+[2.514823] (livox_ros_driver2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.519674] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2\n'}
+[2.521321] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.522311] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.523362] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.524198] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.h\n'}
+[2.525271] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.h\n'}
+[2.526279] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.527020] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.c\n'}
+[2.527988] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.h\n'}
+[2.528618] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.c\n'}
+[2.529589] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.h\n'}
+[2.531174] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.h\n'}
+[2.532454] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.h\n'}
+[2.533323] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.h\n'}
+[2.534251] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.h\n'}
+[2.535166] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh\n'}
+[2.536078] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv\n'}
+[2.536994] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so\n'}
+[2.537937] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.538761] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.540103] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.541191] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.542549] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h\n'}
+[2.543277] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.544237] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so\n'}
+[2.545072] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.545998] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.546548] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.547169] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.547667] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.548232] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.548757] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/dds_fastrtps\n'}
+[2.549351] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.550400] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.551278] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.552315] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.552930] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.553430] (-) TimerEvent: {}
+[2.553973] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.554546] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.c\n'}
+[2.555145] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.c\n'}
+[2.555908] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h\n'}
+[2.556442] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so\n'}
+[2.561654] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so\n'}
+[2.565487] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.566595] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.567631] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.hpp\n'}
+[2.568536] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.569798] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.hpp\n'}
+[2.570486] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.571328] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__builder.hpp\n'}
+[2.572596] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.hpp\n'}
+[2.573506] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__traits.hpp\n'}
+[2.574093] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__builder.hpp\n'}
+[2.574753] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp\n'}
+[2.575323] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__traits.hpp\n'}
+[2.575890] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.hpp\n'}
+[2.576759] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.hpp\n'}
+[2.577769] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2\n'}
+[2.578341] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg\n'}
+[2.579327] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail\n'}
+[2.579896] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.580439] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.cpp\n'}
+[2.581230] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.581925] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp\n'}
+[2.582696] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so\n'}
+[2.583743] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so\n'}
+[2.586658] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh\n'}
+[2.587568] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv\n'}
+[2.588351] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py\n'}
+[2.654351] (-) TimerEvent: {}
+[2.755485] (-) TimerEvent: {}
+[2.806314] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg\n'}
+[2.808431] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point_s.c\n'}
+[2.809280] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/__init__.py\n'}
+[2.810862] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg.py\n'}
+[2.811618] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg_s.c\n'}
+[2.812173] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point.py\n'}
+[2.814141] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.820777] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.827426] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[2.834106] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so\n'}
+[2.838074] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl\n'}
+[2.839376] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl\n'}
+[2.840225] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg\n'}
+[2.840969] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg\n'}
+[2.844276] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node\n'}
+[2.851931] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2.so\n'}
+[2.855657] (-) TimerEvent: {}
+[2.857329] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config\n'}
+[2.858464] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz\n'}
+[2.859219] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz\n'}
+[2.860159] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json\n'}
+[2.861227] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json\n'}
+[2.861998] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json\n'}
+[2.862932] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json\n'}
+[2.863724] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2\n'}
+[2.864586] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py\n'}
+[2.865274] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py\n'}
+[2.866218] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py\n'}
+[2.866914] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py\n'}
+[2.867802] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py\n'}
+[2.868648] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py\n'}
+[2.869300] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py\n'}
+[2.869852] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2\n'}
+[2.870668] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2\n'}
+[2.871229] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh\n'}
+[2.871746] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv\n'}
+[2.872763] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh\n'}
+[2.873392] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv\n'}
+[2.873914] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash\n'}
+[2.874743] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh\n'}
+[2.875511] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh\n'}
+[2.876092] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv\n'}
+[2.877561] (livox_ros_driver2) StdoutLine: {'line': b'-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv\n'}
+[2.878238] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2\n'}
+[2.878994] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport.cmake\n'}
+[2.879519] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.880297] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.881140] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.881722] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake\n'}
+[2.883305] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.884217] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cppExport.cmake\n'}
+[2.885735] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.886698] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.887633] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake\n'}
+[2.888238] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.889755] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2\n'}
+[2.890905] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake\n'}
+[2.891832] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.892574] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.893941] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.894761] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.895946] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.897847] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.899284] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake\n'}
+[2.901345] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake\n'}
+[2.902607] (livox_ros_driver2) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.xml\n'}
+[2.912610] (livox_ros_driver2) CommandEnded: {'returncode': 0}
+[2.955972] (-) TimerEvent: {}
+[3.058243] (-) TimerEvent: {}
+[3.140373] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 0}
+[3.149635] (lidar_avoidance) JobStarted: {'identifier': 'lidar_avoidance'}
+[3.158505] (-) TimerEvent: {}
+[3.261546] (-) TimerEvent: {}
+[3.366072] (-) TimerEvent: {}
+[3.467127] (-) TimerEvent: {}
+[3.568315] (-) TimerEvent: {}
+[3.670018] (-) TimerEvent: {}
+[3.771176] (-) TimerEvent: {}
+[3.872262] (-) TimerEvent: {}
+[3.973559] (-) TimerEvent: {}
+[4.074725] (-) TimerEvent: {}
+[4.176153] (-) TimerEvent: {}
+[4.278726] (-) TimerEvent: {}
+[4.380003] (-) TimerEvent: {}
+[4.481737] (-) TimerEvent: {}
+[4.582881] (-) TimerEvent: {}
+[4.684035] (-) TimerEvent: {}
+[4.785555] (-) TimerEvent: {}
+[4.958060] (-) TimerEvent: {}
+[5.064655] (-) TimerEvent: {}
+[5.165986] (-) TimerEvent: {}
+[5.267076] (-) TimerEvent: {}
+[5.368055] (-) TimerEvent: {}
+[5.469239] (-) TimerEvent: {}
+[5.570217] (-) TimerEvent: {}
+[5.671276] (-) TimerEvent: {}
+[5.772358] (-) TimerEvent: {}
+[5.874236] (-) TimerEvent: {}
+[5.975321] (-) TimerEvent: {}
+[6.076466] (-) TimerEvent: {}
+[6.177640] (-) TimerEvent: {}
+[6.278673] (-) TimerEvent: {}
+[6.380366] (-) TimerEvent: {}
+[6.481925] (-) TimerEvent: {}
+[6.583073] (-) TimerEvent: {}
+[6.684712] (-) TimerEvent: {}
+[6.785929] (-) TimerEvent: {}
+[6.887083] (-) TimerEvent: {}
+[6.988283] (-) TimerEvent: {}
+[7.089513] (-) TimerEvent: {}
+[7.190701] (-) TimerEvent: {}
+[7.291845] (-) TimerEvent: {}
+[7.393085] (-) TimerEvent: {}
+[7.506364] (lidar_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_avoidance', 'build', '--build-base', '/home/jetson/ws_1/build/lidar_avoidance/build', 'install', '--record', '/home/jetson/ws_1/build/lidar_avoidance/install.log', '--install-scripts', '$base/lib/lidar_avoidance', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/lidar_avoidance', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'th_TH.UTF-8', 'SSH_AGENT_PID': '2959', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'th_TH.UTF-8', 'MANAGERPID': '1677', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', 'JOURNAL_STREAM': '8:52055', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/3157,unix/jetson-desktop:/tmp/.ICE-unix/3157', 'INVOCATION_ID': '404ea87d669749bab79e6b5f83efc9aa', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8d323df0_772c_41e8_b88a_1f8a1a307f6c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.115', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/lidar_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[7.534557] (-) TimerEvent: {}
+[7.636206] (-) TimerEvent: {}
+[7.737409] (-) TimerEvent: {}
+[7.838659] (-) TimerEvent: {}
+[7.940007] (-) TimerEvent: {}
+[8.041310] (-) TimerEvent: {}
+[8.142424] (-) TimerEvent: {}
+[8.243767] (-) TimerEvent: {}
+[8.344913] (-) TimerEvent: {}
+[8.446095] (-) TimerEvent: {}
+[8.547371] (-) TimerEvent: {}
+[8.648579] (-) TimerEvent: {}
+[8.750101] (-) TimerEvent: {}
+[8.851333] (-) TimerEvent: {}
+[8.949711] (lidar_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[8.951463] (-) TimerEvent: {}
+[8.953872] (lidar_avoidance) StdoutLine: {'line': b'writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO\n'}
+[8.955575] (lidar_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt\n'}
+[8.957499] (lidar_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt\n'}
+[8.959653] (lidar_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt\n'}
+[8.961524] (lidar_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt\n'}
+[9.051748] (-) TimerEvent: {}
+[9.153348] (-) TimerEvent: {}
+[9.163063] (lidar_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.169122] (lidar_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.170105] (lidar_avoidance) StdoutLine: {'line': b'running build\n'}
+[9.170814] (lidar_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[9.174430] (lidar_avoidance) StdoutLine: {'line': b'running install\n'}
+[9.180755] (lidar_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[9.194506] (lidar_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[9.196028] (lidar_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.206255] (lidar_avoidance) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.208650] (lidar_avoidance) StdoutLine: {'line': b'Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info\n'}
+[9.217889] (lidar_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[9.253572] (-) TimerEvent: {}
+[9.316586] (lidar_avoidance) StdoutLine: {'line': b'Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance\n'}
+[9.319097] (lidar_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'\n"}
+[9.353834] (-) TimerEvent: {}
+[9.446940] (lidar_avoidance) CommandEnded: {'returncode': 0}
+[9.454056] (-) TimerEvent: {}
+[9.512543] (lidar_avoidance) JobEnded: {'identifier': 'lidar_avoidance', 'rc': 0}
+[9.520469] (-) EventReactorShutdown: {}

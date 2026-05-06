@@ -1,0 +1,168 @@
+[  1%] Built target livox_interfaces2__cpp
+[  8%] Built target livox_interfaces2__rosidl_generator_c
+[ 12%] Built target livox_ros_driver2_node
+[ 19%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 26%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 47%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 54%] Built target livox_interfaces2
+[35m[1mScanning dependencies of target livox_ros_driver2[0m
+[ 56%] Built target livox_interfaces2__py
+[ 61%] Built target livox_interfaces2__python
+[ 64%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 68%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 71%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[ 73%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library liblivox_ros_driver2.so[0m
+[100%] Built target livox_ros_driver2
+-- Install configuration: ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/rosidl_interfaces/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__functions.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__functions.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.sh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/library_path.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/dds_fastrtps
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_msg.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/custom_point.hpp
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__builder.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__struct.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__traits.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__builder.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__traits.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__struct.hpp
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg
+-- Up-to-date: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__type_support.cpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/include/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.sh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/pythonpath.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py
+Compiling '/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/__init__.py'...
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point_s.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/__init__.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_msg_s.c
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/msg/_custom_point.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_interfaces2__python.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.idl
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.idl
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomPoint.msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/msg/CustomMsg.msg
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/livox_ros_driver2/livox_ros_driver2_node" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2.so
+-- Set runtime path of "/home/jetson/ws_1/install/livox_ros_driver2/lib/liblivox_ros_driver2.so" to ""
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS1.rviz
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/display_point_cloud_ROS2.rviz
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360s_config.json
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/MID360_config.json
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/mixed_HAP_MID360_config.json
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/config/HAP_config.json
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360s_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_mixed.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_HAP_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_MID360_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/rviz_HAP_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/launch_ROS2/msg_MID360s_launch.py
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/package_run_dependencies/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/parent_prefix_path/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.sh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/ament_prefix_path.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.sh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/environment/path.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.bash
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.sh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.zsh
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/local_setup.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/packages/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_generator_cppExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_interfaces2__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/ament_index/resource_index/rclcpp_components/livox_ros_driver2
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/cmake/livox_ros_driver2Config-version.cmake
+-- Installing: /home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.xml

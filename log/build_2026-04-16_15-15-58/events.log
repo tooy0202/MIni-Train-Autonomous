@@ -1,0 +1,533 @@
+[0.000000] (-) TimerEvent: {}
+[0.001495] (lidar_avoidance) JobQueued: {'identifier': 'lidar_avoidance', 'dependencies': OrderedDict()}
+[0.002145] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.004423] (lidar_avoidance) JobStarted: {'identifier': 'lidar_avoidance'}
+[0.098339] (-) TimerEvent: {}
+[0.199381] (-) TimerEvent: {}
+[0.300536] (-) TimerEvent: {}
+[0.358088] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.400860] (-) TimerEvent: {}
+[0.514291] (-) TimerEvent: {}
+[0.618419] (-) TimerEvent: {}
+[0.719400] (-) TimerEvent: {}
+[0.820482] (-) TimerEvent: {}
+[0.921459] (-) TimerEvent: {}
+[1.022563] (-) TimerEvent: {}
+[1.123679] (-) TimerEvent: {}
+[1.224953] (-) TimerEvent: {}
+[1.488396] (-) TimerEvent: {}
+[1.589495] (-) TimerEvent: {}
+[1.690590] (-) TimerEvent: {}
+[1.791688] (-) TimerEvent: {}
+[1.892907] (-) TimerEvent: {}
+[1.994114] (-) TimerEvent: {}
+[2.095176] (-) TimerEvent: {}
+[2.196459] (-) TimerEvent: {}
+[2.297555] (-) TimerEvent: {}
+[2.377547] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[2.384452] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '/home/jetson/ws_1/src/livox_ros_driver2', '-DCMAKE_INSTALL_PREFIX=/home/jetson/ws_1/install/livox_ros_driver2'], 'cwd': '/home/jetson/ws_1/build/livox_ros_driver2', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.30.153 53100 22'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('BROWSER', '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ws_1/src'), ('TERM_PROGRAM_VERSION', '1.116.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6ddac807-d020-48ff-a0d1-a0f69f06e2f0.sock'), ('JETSON_L4T', '35.6.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/jetson/ws_1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1424620042367'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '7'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-02d2bd250e52905e.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-cc5edb5c15.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ws_1/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.30.153 53100 192.168.30.93 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3668-0000')]), 'shell': False}
+[2.397682] (-) TimerEvent: {}
+[2.501028] (-) TimerEvent: {}
+[2.613621] (-) TimerEvent: {}
+[2.717083] (-) TimerEvent: {}
+[2.820124] (-) TimerEvent: {}
+[2.923427] (-) TimerEvent: {}
+[3.024500] (-) TimerEvent: {}
+[3.126000] (-) TimerEvent: {}
+[3.227503] (-) TimerEvent: {}
+[3.328716] (-) TimerEvent: {}
+[3.430265] (-) TimerEvent: {}
+[3.531403] (-) TimerEvent: {}
+[3.632790] (-) TimerEvent: {}
+[3.734113] (-) TimerEvent: {}
+[3.837451] (-) TimerEvent: {}
+[3.939066] (-) TimerEvent: {}
+[4.040653] (-) TimerEvent: {}
+[4.142145] (-) TimerEvent: {}
+[4.243267] (-) TimerEvent: {}
+[4.344503] (-) TimerEvent: {}
+[4.445680] (-) TimerEvent: {}
+[4.546919] (-) TimerEvent: {}
+[4.648134] (-) TimerEvent: {}
+[4.668817] (livox_ros_driver2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.748463] (-) TimerEvent: {}
+[4.849788] (-) TimerEvent: {}
+[4.950923] (-) TimerEvent: {}
+[5.051978] (-) TimerEvent: {}
+[5.153320] (-) TimerEvent: {}
+[5.254540] (-) TimerEvent: {}
+[5.355695] (-) TimerEvent: {}
+[5.456901] (-) TimerEvent: {}
+[5.558074] (-) TimerEvent: {}
+[5.659261] (-) TimerEvent: {}
+[5.760566] (-) TimerEvent: {}
+[5.773076] (livox_ros_driver2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[5.826718] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[5.860807] (-) TimerEvent: {}
+[5.961954] (-) TimerEvent: {}
+[6.063096] (-) TimerEvent: {}
+[6.164840] (-) TimerEvent: {}
+[6.266502] (-) TimerEvent: {}
+[6.493116] (-) TimerEvent: {}
+[6.594669] (-) TimerEvent: {}
+[6.696243] (-) TimerEvent: {}
+[6.797523] (-) TimerEvent: {}
+[6.835845] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.897733] (-) TimerEvent: {}
+[6.901400] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.998044] (-) TimerEvent: {}
+[7.088719] (lidar_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_avoidance', 'build', '--build-base', '/home/jetson/ws_1/build/lidar_avoidance/build', 'install', '--record', '/home/jetson/ws_1/build/lidar_avoidance/install.log', '--install-scripts', '$base/lib/lidar_avoidance', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/lidar_avoidance', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.153 53100 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ws_1/src', 'TERM_PROGRAM_VERSION': '1.116.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-6ddac807-d020-48ff-a0d1-a0f69f06e2f0.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-560a9dba96f961efea7b1612916f89e5d5d4d679/server/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-02d2bd250e52905e.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/lidar_avoidance', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.153 53100 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[7.160089] (-) TimerEvent: {}
+[7.263743] (-) TimerEvent: {}
+[7.364812] (-) TimerEvent: {}
+[7.466102] (-) TimerEvent: {}
+[7.567334] (-) TimerEvent: {}
+[7.668667] (-) TimerEvent: {}
+[7.769853] (-) TimerEvent: {}
+[7.871077] (-) TimerEvent: {}
+[7.955863] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.971293] (-) TimerEvent: {}
+[8.072489] (-) TimerEvent: {}
+[8.169912] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[8.172617] (-) TimerEvent: {}
+[8.173481] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.196512] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[8.272896] (-) TimerEvent: {}
+[8.373884] (-) TimerEvent: {}
+[8.475084] (-) TimerEvent: {}
+[8.576268] (-) TimerEvent: {}
+[8.667612] (lidar_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[8.672017] (lidar_avoidance) StdoutLine: {'line': b'writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO\n'}
+[8.674263] (lidar_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt\n'}
+[8.676072] (lidar_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt\n'}
+[8.676813] (-) TimerEvent: {}
+[8.678910] (lidar_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt\n'}
+[8.680569] (lidar_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt\n'}
+[8.777136] (-) TimerEvent: {}
+[8.878382] (-) TimerEvent: {}
+[8.979607] (-) TimerEvent: {}
+[9.031828] (livox_ros_driver2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[9.037582] (lidar_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.039874] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.079872] (-) TimerEvent: {}
+[9.181121] (-) TimerEvent: {}
+[9.182327] (lidar_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.183570] (lidar_avoidance) StdoutLine: {'line': b'running build\n'}
+[9.184217] (lidar_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[9.185497] (lidar_avoidance) StdoutLine: {'line': b'running install\n'}
+[9.192424] (lidar_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[9.202282] (lidar_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[9.203268] (lidar_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.213358] (lidar_avoidance) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.216164] (lidar_avoidance) StdoutLine: {'line': b'Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info\n'}
+[9.281464] (-) TimerEvent: {}
+[9.366890] (lidar_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[9.382534] (-) TimerEvent: {}
+[9.478027] (lidar_avoidance) StdoutLine: {'line': b'Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance\n'}
+[9.481457] (lidar_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'\n"}
+[9.482893] (-) TimerEvent: {}
+[9.584932] (-) TimerEvent: {}
+[9.613221] (lidar_avoidance) CommandEnded: {'returncode': 0}
+[9.685165] (-) TimerEvent: {}
+[9.786302] (-) TimerEvent: {}
+[9.887581] (-) TimerEvent: {}
+[9.980971] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.988000] (lidar_avoidance) JobEnded: {'identifier': 'lidar_avoidance', 'rc': 0}
+[9.992110] (-) TimerEvent: {}
+[10.056465] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.059761] (livox_ros_driver2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.067324] (livox_ros_driver2) StdoutLine: {'line': b'-- livox_ros_driver2 version: 1.2.6\n'}
+[10.092276] (-) TimerEvent: {}
+[10.193229] (-) TimerEvent: {}
+[10.221939] (livox_ros_driver2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)\n'}
+[10.293550] (-) TimerEvent: {}
+[10.394731] (-) TimerEvent: {}
+[10.495800] (-) TimerEvent: {}
+[10.596909] (-) TimerEvent: {}
+[10.698083] (-) TimerEvent: {}
+[10.799207] (-) TimerEvent: {}
+[10.900190] (-) TimerEvent: {}
+[10.996969] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[10.998362] (livox_ros_driver2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[11.000398] (-) TimerEvent: {}
+[11.101235] (-) TimerEvent: {}
+[11.202319] (-) TimerEvent: {}
+[11.303425] (-) TimerEvent: {}
+[11.404482] (-) TimerEvent: {}
+[11.505483] (-) TimerEvent: {}
+[11.606538] (-) TimerEvent: {}
+[11.707644] (-) TimerEvent: {}
+[11.808786] (-) TimerEvent: {}
+[11.909814] (-) TimerEvent: {}
+[12.010875] (-) TimerEvent: {}
+[12.111951] (-) TimerEvent: {}
+[12.213085] (-) TimerEvent: {}
+[12.314115] (-) TimerEvent: {}
+[12.415189] (-) TimerEvent: {}
+[12.516403] (-) TimerEvent: {}
+[12.617580] (-) TimerEvent: {}
+[12.718720] (-) TimerEvent: {}
+[12.819773] (-) TimerEvent: {}
+[12.920887] (-) TimerEvent: {}
+[13.022002] (-) TimerEvent: {}
+[13.123122] (-) TimerEvent: {}
+[13.224210] (-) TimerEvent: {}
+[13.325328] (-) TimerEvent: {}
+[13.339065] (livox_ros_driver2) StderrLine: {'line': b'CMake Error: File /home/jetson/ws_1/src/livox_ros_driver2/package.xml does not exist.\n'}
+[13.340089] (livox_ros_driver2) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[13.340833] (livox_ros_driver2) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[13.341382] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.341908] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[13.342490] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[13.342983] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)\n'}
+[13.343488] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:225 (ament_auto_find_build_dependencies)\n'}
+[13.344084] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[13.344723] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[13.425514] (-) TimerEvent: {}
+[13.526638] (-) TimerEvent: {}
+[13.627693] (-) TimerEvent: {}
+[13.724295] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[13.727894] (-) TimerEvent: {}
+[13.828942] (-) TimerEvent: {}
+[13.930029] (-) TimerEvent: {}
+[14.031131] (-) TimerEvent: {}
+[14.055956] (livox_ros_driver2) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[14.131360] (-) TimerEvent: {}
+[14.232537] (-) TimerEvent: {}
+[14.333662] (-) TimerEvent: {}
+[14.434924] (-) TimerEvent: {}
+[14.536050] (-) TimerEvent: {}
+[14.637365] (-) TimerEvent: {}
+[14.642542] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[14.643494] (livox_ros_driver2) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[14.737625] (-) TimerEvent: {}
+[14.838783] (-) TimerEvent: {}
+[14.939953] (-) TimerEvent: {}
+[15.041217] (-) TimerEvent: {}
+[15.142327] (-) TimerEvent: {}
+[15.243563] (-) TimerEvent: {}
+[15.344728] (-) TimerEvent: {}
+[15.445821] (-) TimerEvent: {}
+[15.546959] (-) TimerEvent: {}
+[15.648074] (-) TimerEvent: {}
+[15.749194] (-) TimerEvent: {}
+[15.786444] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex \n'}
+[15.849334] (-) TimerEvent: {}
+[15.950387] (-) TimerEvent: {}
+[16.027917] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[16.050593] (-) TimerEvent: {}
+[16.151683] (-) TimerEvent: {}
+[16.252858] (-) TimerEvent: {}
+[16.340897] (livox_ros_driver2) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[16.353003] (-) TimerEvent: {}
+[16.599161] (-) TimerEvent: {}
+[16.700524] (-) TimerEvent: {}
+[16.801733] (-) TimerEvent: {}
+[16.836787] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  \n'}
+[16.901937] (-) TimerEvent: {}
+[17.003068] (-) TimerEvent: {}
+[17.104110] (-) TimerEvent: {}
+[17.205302] (-) TimerEvent: {}
+[17.306449] (-) TimerEvent: {}
+[17.407591] (-) TimerEvent: {}
+[17.508887] (-) TimerEvent: {}
+[17.610086] (-) TimerEvent: {}
+[17.711166] (-) TimerEvent: {}
+[17.812441] (-) TimerEvent: {}
+[17.913667] (-) TimerEvent: {}
+[17.948480] (livox_ros_driver2) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[17.949808] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[17.950356] (livox_ros_driver2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[17.950930] (livox_ros_driver2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[17.951584] (livox_ros_driver2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[17.952095] (livox_ros_driver2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[17.952714] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[17.953354] (livox_ros_driver2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[17.954629] (livox_ros_driver2) StdoutLine: {'line': b'\n'}
+[17.961334] (livox_ros_driver2) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[17.962379] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[17.963028] (livox_ros_driver2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[17.963571] (livox_ros_driver2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[17.964128] (livox_ros_driver2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[17.964857] (livox_ros_driver2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[17.965403] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[17.965929] (livox_ros_driver2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[17.966500] (livox_ros_driver2) StdoutLine: {'line': b'\n'}
+[17.970103] (livox_ros_driver2) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[17.970677] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[17.971556] (livox_ros_driver2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[17.972147] (livox_ros_driver2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[17.972858] (livox_ros_driver2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[17.973416] (livox_ros_driver2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[17.973949] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[17.974509] (livox_ros_driver2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[17.975058] (livox_ros_driver2) StdoutLine: {'line': b'\n'}
+[17.975570] (livox_ros_driver2) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[17.976133] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[17.976864] (livox_ros_driver2) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[17.977403] (livox_ros_driver2) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[17.977928] (livox_ros_driver2) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[17.978561] (livox_ros_driver2) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[17.979069] (livox_ros_driver2) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[17.979605] (livox_ros_driver2) StdoutLine: {'line': b'but not all the files it references.\n'}
+[17.980139] (livox_ros_driver2) StdoutLine: {'line': b'\n'}
+[18.013892] (-) TimerEvent: {}
+[18.116132] (-) TimerEvent: {}
+[18.217781] (-) TimerEvent: {}
+[18.318938] (-) TimerEvent: {}
+[18.320752] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[18.419178] (-) TimerEvent: {}
+[18.520579] (-) TimerEvent: {}
+[18.621854] (-) TimerEvent: {}
+[18.633488] (livox_ros_driver2) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[18.722127] (-) TimerEvent: {}
+[18.823253] (-) TimerEvent: {}
+[18.924398] (-) TimerEvent: {}
+[19.025655] (-) TimerEvent: {}
+[19.113271] (livox_ros_driver2) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  \n'}
+[19.125861] (-) TimerEvent: {}
+[19.226968] (-) TimerEvent: {}
+[19.328033] (-) TimerEvent: {}
+[19.429250] (-) TimerEvent: {}
+[19.530358] (-) TimerEvent: {}
+[19.631485] (-) TimerEvent: {}
+[19.732564] (-) TimerEvent: {}
+[19.833746] (-) TimerEvent: {}
+[19.894652] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so  \n'}
+[19.895722] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[19.934039] (-) TimerEvent: {}
+[20.035068] (-) TimerEvent: {}
+[20.136480] (-) TimerEvent: {}
+[20.237445] (-) TimerEvent: {}
+[20.338365] (-) TimerEvent: {}
+[20.439491] (-) TimerEvent: {}
+[20.540726] (-) TimerEvent: {}
+[20.641776] (-) TimerEvent: {}
+[20.742921] (-) TimerEvent: {}
+[20.844123] (-) TimerEvent: {}
+[20.870536] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/libOpenNI2.so  \n'}
+[20.871591] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[20.873427] (livox_ros_driver2) StderrLine: {'line': b'** WARNING ** io features related to pcap will be disabled\n'}
+[20.874404] (livox_ros_driver2) StderrLine: {'line': b'** WARNING ** io features related to png will be disabled\n'}
+[20.944424] (-) TimerEvent: {}
+[20.973835] (livox_ros_driver2) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[20.975025] (livox_ros_driver2) StderrLine: {'line': b'** WARNING ** io features related to libusb-1.0 will be disabled\n'}
+[21.023105] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[21.044665] (-) TimerEvent: {}
+[21.073243] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[21.144927] (-) TimerEvent: {}
+[21.246110] (-) TimerEvent: {}
+[21.347283] (-) TimerEvent: {}
+[21.401871] (livox_ros_driver2) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so  \n'}
+[21.496604] (-) TimerEvent: {}
+[21.497273] (livox_ros_driver2) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)\n'}
+[21.498079] (livox_ros_driver2) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[21.542225] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[21.548516] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  \n'}
+[21.550204] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[21.555287] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  \n'}
+[21.556857] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[21.561709] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  \n'}
+[21.563116] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[21.567965] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  \n'}
+[21.569666] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[21.574620] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[21.576161] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[21.581001] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  \n'}
+[21.582597] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[21.584221] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[21.585805] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[21.587469] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[21.588591] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[21.593693] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  \n'}
+[21.595907] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[21.596586] (-) TimerEvent: {}
+[21.601108] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  \n'}
+[21.603201] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[21.608262] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  \n'}
+[21.609789] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[21.614807] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  \n'}
+[21.617191] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[21.622200] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  \n'}
+[21.624668] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[21.630509] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  \n'}
+[21.632543] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[21.637683] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  \n'}
+[21.639805] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[21.644691] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  \n'}
+[21.646638] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[21.651447] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  \n'}
+[21.653320] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[21.658083] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  \n'}
+[21.661029] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[21.666287] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  \n'}
+[21.667893] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[21.673399] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  \n'}
+[21.678933] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[21.681107] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[21.688886] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[21.696721] (-) TimerEvent: {}
+[21.797601] (-) TimerEvent: {}
+[21.834466] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[21.835676] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[21.841760] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  \n'}
+[21.843853] (livox_ros_driver2) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[21.849378] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  \n'}
+[21.856590] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/aarch64-linux-gnu/libboost_system.so;/usr/lib/aarch64-linux-gnu/libboost_filesystem.so;/usr/lib/aarch64-linux-gnu/libboost_date_time.so;/usr/lib/aarch64-linux-gnu/libboost_iostreams.so;/usr/lib/aarch64-linux-gnu/libboost_regex.so;optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/aarch64-linux-gnu/libfreetype.so;/usr/lib/aarch64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/aarch64-linux-gnu/libjpeg.so;/usr/lib/aarch64-linux-gnu/libpng.so;/usr/lib/aarch64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/aarch64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN  \n'}
+[21.897822] (-) TimerEvent: {}
+[21.999008] (-) TimerEvent: {}
+[22.012737] (livox_ros_driver2) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[22.099287] (-) TimerEvent: {}
+[22.200447] (-) TimerEvent: {}
+[22.301514] (-) TimerEvent: {}
+[22.402591] (-) TimerEvent: {}
+[22.503806] (-) TimerEvent: {}
+[22.605001] (-) TimerEvent: {}
+[22.706194] (-) TimerEvent: {}
+[22.807331] (-) TimerEvent: {}
+[22.908727] (-) TimerEvent: {}
+[23.009939] (-) TimerEvent: {}
+[23.111198] (-) TimerEvent: {}
+[23.212476] (-) TimerEvent: {}
+[23.313689] (-) TimerEvent: {}
+[23.414897] (-) TimerEvent: {}
+[23.516033] (-) TimerEvent: {}
+[23.617308] (-) TimerEvent: {}
+[23.718390] (-) TimerEvent: {}
+[23.819572] (-) TimerEvent: {}
+[23.920792] (-) TimerEvent: {}
+[24.021961] (-) TimerEvent: {}
+[24.123168] (-) TimerEvent: {}
+[24.224265] (-) TimerEvent: {}
+[24.325478] (-) TimerEvent: {}
+[24.426571] (-) TimerEvent: {}
+[24.527774] (-) TimerEvent: {}
+[24.629086] (-) TimerEvent: {}
+[24.730261] (-) TimerEvent: {}
+[24.831417] (-) TimerEvent: {}
+[24.932510] (-) TimerEvent: {}
+[25.033728] (-) TimerEvent: {}
+[25.134921] (-) TimerEvent: {}
+[25.236115] (-) TimerEvent: {}
+[25.337342] (-) TimerEvent: {}
+[25.438416] (-) TimerEvent: {}
+[25.539528] (-) TimerEvent: {}
+[25.640761] (-) TimerEvent: {}
+[25.741865] (-) TimerEvent: {}
+[25.843066] (-) TimerEvent: {}
+[25.944146] (-) TimerEvent: {}
+[26.045327] (-) TimerEvent: {}
+[26.146453] (-) TimerEvent: {}
+[26.247474] (-) TimerEvent: {}
+[26.348663] (-) TimerEvent: {}
+[26.449735] (-) TimerEvent: {}
+[26.557429] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[26.558428] (-) TimerEvent: {}
+[26.659224] (-) TimerEvent: {}
+[26.760427] (-) TimerEvent: {}
+[26.861471] (-) TimerEvent: {}
+[26.902135] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[26.961649] (-) TimerEvent: {}
+[27.062722] (-) TimerEvent: {}
+[27.163837] (-) TimerEvent: {}
+[27.265012] (-) TimerEvent: {}
+[27.366085] (-) TimerEvent: {}
+[27.467208] (-) TimerEvent: {}
+[27.568414] (-) TimerEvent: {}
+[27.669473] (-) TimerEvent: {}
+[27.770645] (-) TimerEvent: {}
+[27.871747] (-) TimerEvent: {}
+[27.972940] (-) TimerEvent: {}
+[28.074154] (-) TimerEvent: {}
+[28.175262] (-) TimerEvent: {}
+[28.276296] (-) TimerEvent: {}
+[28.377498] (-) TimerEvent: {}
+[28.459325] (livox_ros_driver2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[28.477688] (-) TimerEvent: {}
+[28.578515] (-) TimerEvent: {}
+[28.679267] (-) TimerEvent: {}
+[28.780370] (-) TimerEvent: {}
+[28.881560] (-) TimerEvent: {}
+[28.904654] (livox_ros_driver2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[28.981795] (-) TimerEvent: {}
+[29.082935] (-) TimerEvent: {}
+[29.184085] (-) TimerEvent: {}
+[29.285628] (-) TimerEvent: {}
+[29.386790] (-) TimerEvent: {}
+[29.487969] (-) TimerEvent: {}
+[29.589173] (-) TimerEvent: {}
+[29.690317] (-) TimerEvent: {}
+[29.791456] (-) TimerEvent: {}
+[29.892567] (-) TimerEvent: {}
+[29.993695] (-) TimerEvent: {}
+[30.094807] (-) TimerEvent: {}
+[30.195924] (-) TimerEvent: {}
+[30.297062] (-) TimerEvent: {}
+[30.398176] (-) TimerEvent: {}
+[30.499326] (-) TimerEvent: {}
+[30.600501] (-) TimerEvent: {}
+[30.701595] (-) TimerEvent: {}
+[30.784224] (livox_ros_driver2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[30.801838] (-) TimerEvent: {}
+[30.902840] (-) TimerEvent: {}
+[31.003989] (-) TimerEvent: {}
+[31.105164] (-) TimerEvent: {}
+[31.206252] (-) TimerEvent: {}
+[31.307443] (-) TimerEvent: {}
+[31.408578] (-) TimerEvent: {}
+[31.509591] (-) TimerEvent: {}
+[31.610572] (-) TimerEvent: {}
+[31.713147] (-) TimerEvent: {}
+[31.814293] (-) TimerEvent: {}
+[31.915418] (-) TimerEvent: {}
+[32.016715] (-) TimerEvent: {}
+[32.117924] (-) TimerEvent: {}
+[32.220063] (-) TimerEvent: {}
+[32.288555] (livox_ros_driver2) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[32.320429] (-) TimerEvent: {}
+[32.422349] (-) TimerEvent: {}
+[32.524437] (-) TimerEvent: {}
+[32.626105] (-) TimerEvent: {}
+[32.728216] (-) TimerEvent: {}
+[32.821766] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[32.828458] (-) TimerEvent: {}
+[32.835949] (livox_ros_driver2) StdoutLine: {'line': b"-- Checking for module 'apr-1'\n"}
+[32.870506] (livox_ros_driver2) StdoutLine: {'line': b"--   No package 'apr-1' found\n"}
+[32.928667] (-) TimerEvent: {}
+[33.029768] (-) TimerEvent: {}
+[33.038777] (livox_ros_driver2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[33.129960] (-) TimerEvent: {}
+[33.230878] (-) TimerEvent: {}
+[33.331734] (-) TimerEvent: {}
+[33.432603] (-) TimerEvent: {}
+[33.533372] (-) TimerEvent: {}
+[33.634212] (-) TimerEvent: {}
+[33.735168] (-) TimerEvent: {}
+[33.836196] (-) TimerEvent: {}
+[33.937223] (-) TimerEvent: {}
+[34.038299] (-) TimerEvent: {}
+[34.139397] (-) TimerEvent: {}
+[34.145938] (livox_ros_driver2) StderrLine: {'line': b'CMake Error: File /home/jetson/ws_1/src/livox_ros_driver2/package.xml does not exist.\n'}
+[34.147422] (livox_ros_driver2) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):\n'}
+[34.147981] (livox_ros_driver2) StderrLine: {'line': b'  configure_file Problem configuring file\n'}
+[34.148603] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[34.149244] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)\n'}
+[34.149778] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[34.150297] (livox_ros_driver2) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[34.150846] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[34.151413] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[34.151926] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[34.152477] (livox_ros_driver2) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):\n'}
+[34.153047] (livox_ros_driver2) StderrLine: {'line': b'  Packages installing interfaces must include\n'}
+[34.153557] (livox_ros_driver2) StderrLine: {'line': b"  '<member_of_group>rosidl_interface_packages</member_of_group>' in their\n"}
+[34.154067] (livox_ros_driver2) StderrLine: {'line': b'  package.xml\n'}
+[34.154547] (livox_ros_driver2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[34.155102] (livox_ros_driver2) StderrLine: {'line': b'  CMakeLists.txt:241 (rosidl_generate_interfaces)\n'}
+[34.155695] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[34.156201] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[34.180787] (livox_ros_driver2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[34.181479] (livox_ros_driver2) StdoutLine: {'line': b'See also "/home/jetson/ws_1/build/livox_ros_driver2/CMakeFiles/CMakeOutput.log".\n'}
+[34.239590] (-) TimerEvent: {}
+[34.277158] (livox_ros_driver2) CommandEnded: {'returncode': 1}
+[34.283610] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 1}
+[34.298178] (-) EventReactorShutdown: {}

@@ -1,0 +1,177 @@
+[0.000000] (-) TimerEvent: {}
+[0.001421] (lidar_avoidance) JobQueued: {'identifier': 'lidar_avoidance', 'dependencies': OrderedDict()}
+[0.002579] (livox_ros_driver2) JobQueued: {'identifier': 'livox_ros_driver2', 'dependencies': OrderedDict()}
+[0.003633] (lidar_avoidance) JobStarted: {'identifier': 'lidar_avoidance'}
+[0.098217] (-) TimerEvent: {}
+[0.199314] (-) TimerEvent: {}
+[0.258488] (livox_ros_driver2) JobStarted: {'identifier': 'livox_ros_driver2'}
+[0.300381] (-) TimerEvent: {}
+[0.403650] (-) TimerEvent: {}
+[0.508059] (-) TimerEvent: {}
+[0.609256] (-) TimerEvent: {}
+[0.710447] (-) TimerEvent: {}
+[0.811663] (-) TimerEvent: {}
+[0.913057] (-) TimerEvent: {}
+[1.014189] (-) TimerEvent: {}
+[1.115379] (-) TimerEvent: {}
+[1.216591] (-) TimerEvent: {}
+[1.318336] (-) TimerEvent: {}
+[1.419466] (-) TimerEvent: {}
+[1.520584] (-) TimerEvent: {}
+[1.621727] (-) TimerEvent: {}
+[1.722849] (-) TimerEvent: {}
+[1.823952] (-) TimerEvent: {}
+[1.925199] (-) TimerEvent: {}
+[2.026293] (-) TimerEvent: {}
+[2.127497] (-) TimerEvent: {}
+[2.229210] (-) TimerEvent: {}
+[2.256829] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'cmake'}
+[2.329613] (-) TimerEvent: {}
+[2.388659] (livox_ros_driver2) JobProgress: {'identifier': 'livox_ros_driver2', 'progress': 'build'}
+[2.396722] (livox_ros_driver2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ws_1/build/livox_ros_driver2', '--', '-j6', '-l6'], 'cwd': '/home/jetson/ws_1/build/livox_ros_driver2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'th_TH.UTF-8'), ('SSH_AGENT_PID', '2959'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.6.4'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1677'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/ws_1/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1424620042367'), ('JOURNAL_STREAM', '8:52055'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jetson-desktop:@/tmp/.ICE-unix/3157,unix/jetson-desktop:/tmp/.ICE-unix/3157'), ('INVOCATION_ID', '404ea87d669749bab79e6b5f83efc9aa'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f137ac6a_3ea8_48d9_8633_2b58b4474f00'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/jetson/ws_1/build/livox_ros_driver2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', ''), ('JETSON_P_NUMBER', 'p3668-0000'), ('CMAKE_PREFIX_PATH', '/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy')]), 'shell': False}
+[2.432054] (-) TimerEvent: {}
+[2.536483] (-) TimerEvent: {}
+[2.637647] (-) TimerEvent: {}
+[2.738858] (-) TimerEvent: {}
+[2.841142] (-) TimerEvent: {}
+[2.944334] (-) TimerEvent: {}
+[3.045419] (-) TimerEvent: {}
+[3.146517] (-) TimerEvent: {}
+[3.247666] (-) TimerEvent: {}
+[3.348872] (-) TimerEvent: {}
+[3.449998] (-) TimerEvent: {}
+[3.551083] (-) TimerEvent: {}
+[3.652261] (-) TimerEvent: {}
+[3.753282] (-) TimerEvent: {}
+[3.854401] (-) TimerEvent: {}
+[3.955668] (-) TimerEvent: {}
+[4.057747] (-) TimerEvent: {}
+[4.158971] (-) TimerEvent: {}
+[4.260325] (-) TimerEvent: {}
+[4.362034] (-) TimerEvent: {}
+[4.451033] (livox_ros_driver2) StdoutLine: {'line': b'[  1%] Built target livox_interfaces2__cpp\n'}
+[4.459553] (livox_ros_driver2) StdoutLine: {'line': b'[  8%] Built target livox_interfaces2__rosidl_generator_c\n'}
+[4.463302] (-) TimerEvent: {}
+[4.564317] (-) TimerEvent: {}
+[4.665577] (-) TimerEvent: {}
+[4.752572] (livox_ros_driver2) StdoutLine: {'line': b'[ 12%] Built target livox_ros_driver2_node\n'}
+[4.765769] (-) TimerEvent: {}
+[4.866860] (-) TimerEvent: {}
+[4.939775] (livox_ros_driver2) StdoutLine: {'line': b'[ 19%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp\n'}
+[4.946632] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_c\n'}
+[4.948037] (livox_ros_driver2) StdoutLine: {'line': b'[ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp\n'}
+[4.960058] (livox_ros_driver2) StdoutLine: {'line': b'[ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_c\n'}
+[4.967055] (-) TimerEvent: {}
+[4.970829] (livox_ros_driver2) StdoutLine: {'line': b'[ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp\n'}
+[5.067342] (-) TimerEvent: {}
+[5.168716] (-) TimerEvent: {}
+[5.270013] (-) TimerEvent: {}
+[5.371156] (-) TimerEvent: {}
+[5.472801] (-) TimerEvent: {}
+[5.530036] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c\n'}
+[5.573035] (-) TimerEvent: {}
+[5.674236] (-) TimerEvent: {}
+[5.775510] (-) TimerEvent: {}
+[5.812785] (livox_ros_driver2) StdoutLine: {'line': b'[ 54%] Built target livox_interfaces2\n'}
+[5.875725] (-) TimerEvent: {}
+[5.976919] (-) TimerEvent: {}
+[6.078103] (-) TimerEvent: {}
+[6.177704] (livox_ros_driver2) StdoutLine: {'line': b'[ 56%] Built target livox_interfaces2__py\n'}
+[6.178695] (-) TimerEvent: {}
+[6.279592] (-) TimerEvent: {}
+[6.380835] (-) TimerEvent: {}
+[6.482788] (-) TimerEvent: {}
+[6.583994] (-) TimerEvent: {}
+[6.685347] (-) TimerEvent: {}
+[6.692743] (livox_ros_driver2) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o\x1b[0m\n'}
+[6.694313] (livox_ros_driver2) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o\x1b[0m\n'}
+[6.698720] (livox_ros_driver2) StdoutLine: {'line': b'[ 64%] Built target livox_interfaces2__python\n'}
+[6.700760] (livox_ros_driver2) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o\x1b[0m\n'}
+[6.785585] (-) TimerEvent: {}
+[6.886806] (-) TimerEvent: {}
+[6.988178] (-) TimerEvent: {}
+[7.089358] (-) TimerEvent: {}
+[7.182352] (livox_ros_driver2) StdoutLine: {'line': b'[ 73%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext\n'}
+[7.184374] (livox_ros_driver2) StdoutLine: {'line': b'[ 73%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.185992] (livox_ros_driver2) StdoutLine: {'line': b'[ 77%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext\n'}
+[7.189613] (-) TimerEvent: {}
+[7.290832] (-) TimerEvent: {}
+[7.392145] (-) TimerEvent: {}
+[7.447124] (lidar_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_avoidance', 'build', '--build-base', '/home/jetson/ws_1/build/lidar_avoidance/build', 'install', '--record', '/home/jetson/ws_1/build/lidar_avoidance/install.log', '--install-scripts', '$base/lib/lidar_avoidance', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/lidar_avoidance', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'th_TH.UTF-8', 'SSH_AGENT_PID': '2959', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'th_TH.UTF-8', 'MANAGERPID': '1677', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', 'JOURNAL_STREAM': '8:52055', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/3157,unix/jetson-desktop:/tmp/.ICE-unix/3157', 'INVOCATION_ID': '404ea87d669749bab79e6b5f83efc9aa', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f137ac6a_3ea8_48d9_8633_2b58b4474f00', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.110', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/lidar_avoidance', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[7.493104] (-) TimerEvent: {}
+[7.597055] (-) TimerEvent: {}
+[7.698305] (-) TimerEvent: {}
+[7.800494] (-) TimerEvent: {}
+[7.902389] (-) TimerEvent: {}
+[8.003444] (-) TimerEvent: {}
+[8.105422] (-) TimerEvent: {}
+[8.207434] (-) TimerEvent: {}
+[8.309520] (-) TimerEvent: {}
+[8.410584] (-) TimerEvent: {}
+[8.511839] (-) TimerEvent: {}
+[8.613049] (-) TimerEvent: {}
+[8.714188] (-) TimerEvent: {}
+[8.815312] (-) TimerEvent: {}
+[8.917254] (-) TimerEvent: {}
+[9.018960] (-) TimerEvent: {}
+[9.121022] (-) TimerEvent: {}
+[9.133394] (lidar_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[9.139038] (lidar_avoidance) StdoutLine: {'line': b'writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO\n'}
+[9.142311] (lidar_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt\n'}
+[9.149344] (lidar_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt\n'}
+[9.157288] (lidar_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt\n'}
+[9.163389] (lidar_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt\n'}
+[9.221295] (-) TimerEvent: {}
+[9.323038] (-) TimerEvent: {}
+[9.424467] (-) TimerEvent: {}
+[9.526220] (-) TimerEvent: {}
+[9.558886] (lidar_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.626561] (-) TimerEvent: {}
+[9.705041] (lidar_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[9.706886] (lidar_avoidance) StdoutLine: {'line': b'running build\n'}
+[9.707511] (lidar_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[9.708737] (lidar_avoidance) StdoutLine: {'line': b'running install\n'}
+[9.714055] (lidar_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[9.725728] (lidar_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[9.726806] (-) TimerEvent: {}
+[9.727802] (lidar_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.738056] (lidar_avoidance) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[9.827197] (-) TimerEvent: {}
+[9.882570] (lidar_avoidance) StdoutLine: {'line': b'Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info\n'}
+[9.894062] (lidar_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[9.927496] (-) TimerEvent: {}
+[10.010840] (lidar_avoidance) StdoutLine: {'line': b'Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance\n'}
+[10.014726] (lidar_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'\n"}
+[10.027856] (-) TimerEvent: {}
+[10.129506] (-) TimerEvent: {}
+[10.173816] (lidar_avoidance) CommandEnded: {'returncode': 0}
+[10.233999] (-) TimerEvent: {}
+[10.321065] (lidar_avoidance) JobEnded: {'identifier': 'lidar_avoidance', 'rc': 0}
+[10.334304] (-) TimerEvent: {}
+[10.435528] (-) TimerEvent: {}
+[10.543910] (-) TimerEvent: {}
+[10.573244] (livox_ros_driver2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:\x1b[m\x1b[K In static member function \xe2\x80\x98\x1b[01m\x1b[Kstatic void livox_ros::PubHandler::OnLivoxLidarPointCloudCallback(uint32_t, uint8_t, LivoxLidarEthernetPacket*, void*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.574616] (livox_ros_driver2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:135:103:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KkLivoxLidarTypeMid360s\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KLivoxLidarDeviceType\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.575382] (livox_ros_driver2) StderrLine: {'line': b'  135 | Type::kLivoxLidarTypeMid360||dev_type==LivoxLidarDeviceType::\x1b[01;31m\x1b[KkLivoxLidarTypeMid360s\x1b[m\x1b[K) {\n'}
+[10.576005] (livox_ros_driver2) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.577854] (livox_ros_driver2) StderrLine: {'line': b'\n'}
+[10.644266] (-) TimerEvent: {}
+[10.745629] (-) TimerEvent: {}
+[10.846930] (-) TimerEvent: {}
+[10.948336] (-) TimerEvent: {}
+[11.049597] (-) TimerEvent: {}
+[11.151050] (-) TimerEvent: {}
+[11.252998] (-) TimerEvent: {}
+[11.354233] (-) TimerEvent: {}
+[11.455553] (-) TimerEvent: {}
+[11.556894] (-) TimerEvent: {}
+[11.658300] (-) TimerEvent: {}
+[11.759623] (-) TimerEvent: {}
+[11.860885] (-) TimerEvent: {}
+[11.957943] (livox_ros_driver2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:193: CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o] Error 1\n'}
+[11.959925] (livox_ros_driver2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/livox_ros_driver2.dir/all] Error 2\n'}
+[11.960847] (-) TimerEvent: {}
+[11.961628] (livox_ros_driver2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[11.977551] (livox_ros_driver2) CommandEnded: {'returncode': 2}
+[12.020635] (livox_ros_driver2) JobEnded: {'identifier': 'livox_ros_driver2', 'rc': 2}
+[12.028702] (-) EventReactorShutdown: {}

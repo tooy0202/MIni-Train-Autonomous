@@ -1,0 +1,18 @@
+[  1%] Built target livox_interfaces2__cpp
+[  8%] Built target livox_interfaces2__rosidl_generator_c
+[ 12%] Built target livox_ros_driver2_node
+[ 19%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_c
+[ 33%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[ 47%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[ 54%] Built target livox_interfaces2
+[ 56%] Built target livox_interfaces2__py
+[ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/livox_lidar_callback.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/call_back/lidar_common_callback.cpp.o[0m
+[ 64%] Built target livox_interfaces2__python
+[ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[ 73%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[ 73%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[ 77%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext

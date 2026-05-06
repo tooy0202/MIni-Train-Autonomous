@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/ws_1/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6
+Invoked command in '/home/jetson/ws_1/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6

@@ -1,0 +1,214 @@
+[1.831s] Invoking command in '/home/jetson/ws_1/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake /home/jetson/ws_1/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/jetson/ws_1/install/livox_ros_driver2
+[1.995s] -- livox_ros_driver2 version: 1.2.6
+[1.997s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[2.175s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.177s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.918s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.954s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.950s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.603s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.619s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.636s] -- Looking for pthread.h
+[7.597s] -- Looking for pthread.h - found
+[7.600s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.516s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.519s] -- Looking for pthread_create in pthreads
+[9.449s] -- Looking for pthread_create in pthreads - not found
+[9.451s] -- Looking for pthread_create in pthread
+[10.214s] -- Looking for pthread_create in pthread - found
+[10.227s] -- Found Threads: TRUE  
+[15.959s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[16.635s] -- The imported target "vtkParseOGLExt" references the file
+[16.636s]    "/usr/bin/vtkParseOGLExt-7.1"
+[16.636s] but this file does not exist.  Possible reasons include:
+[16.637s] * The file was deleted, renamed, or moved to another location.
+[16.638s] * An install or uninstall procedure did not complete successfully.
+[16.638s] * The installation package was faulty and contained
+[16.639s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[16.640s] but not all the files it references.
+[16.640s] 
+[16.645s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[16.647s]    "/usr/lib/aarch64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[16.647s] but this file does not exist.  Possible reasons include:
+[16.648s] * The file was deleted, renamed, or moved to another location.
+[16.649s] * An install or uninstall procedure did not complete successfully.
+[16.650s] * The installation package was faulty and contained
+[16.650s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[16.651s] but not all the files it references.
+[16.652s] 
+[16.653s] -- The imported target "vtk" references the file
+[16.654s]    "/usr/bin/vtk"
+[16.654s] but this file does not exist.  Possible reasons include:
+[16.655s] * The file was deleted, renamed, or moved to another location.
+[16.655s] * An install or uninstall procedure did not complete successfully.
+[16.656s] * The installation package was faulty and contained
+[16.656s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[16.657s] but not all the files it references.
+[16.657s] 
+[16.658s] -- The imported target "pvtk" references the file
+[16.659s]    "/usr/bin/pvtk"
+[16.659s] but this file does not exist.  Possible reasons include:
+[16.660s] * The file was deleted, renamed, or moved to another location.
+[16.660s] * An install or uninstall procedure did not complete successfully.
+[16.661s] * The installation package was faulty and contained
+[16.662s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[16.662s] but not all the files it references.
+[16.663s] 
+[16.812s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[16.863s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[16.865s] ** WARNING ** io features related to pcap will be disabled
+[16.867s] ** WARNING ** io features related to png will be disabled
+[16.948s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[16.996s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[17.045s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[17.136s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/aarch64-linux-gnu/libqhull.so;debug;/usr/lib/aarch64-linux-gnu/libqhull.so)
+[17.187s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[17.272s] -- looking for PCL_COMMON
+[17.275s] -- looking for PCL_KDTREE
+[17.277s] -- looking for PCL_OCTREE
+[17.279s] -- looking for PCL_SEARCH
+[17.283s] -- looking for PCL_SAMPLE_CONSENSUS
+[17.285s] -- looking for PCL_FILTERS
+[17.288s] -- looking for PCL_2D
+[17.290s] -- looking for PCL_GEOMETRY
+[17.291s] -- looking for PCL_IO
+[17.295s] -- looking for PCL_FEATURES
+[17.298s] -- looking for PCL_ML
+[17.300s] -- looking for PCL_SEGMENTATION
+[17.303s] -- looking for PCL_VISUALIZATION
+[17.306s] -- looking for PCL_SURFACE
+[17.309s] -- looking for PCL_REGISTRATION
+[17.312s] -- looking for PCL_KEYPOINTS
+[17.315s] -- looking for PCL_TRACKING
+[17.318s] -- looking for PCL_RECOGNITION
+[17.321s] -- looking for PCL_STEREO
+[17.324s] -- looking for PCL_APPS
+[17.329s] -- looking for PCL_IN_HAND_SCANNER
+[17.331s] -- looking for PCL_POINT_CLOUD_EDITOR
+[17.333s] -- looking for PCL_OUTOFCORE
+[17.336s] -- looking for PCL_PEOPLE
+[17.399s] -- Checking for module 'apr-1'
+[17.573s] --   No package 'apr-1' found
+[17.749s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[19.039s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[21.655s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.098s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.404s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[23.556s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[24.024s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[24.024s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[24.025s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[24.026s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[24.178s] -- Found PythonExtra: .so  
+[25.432s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[25.769s] -- Added test 'copyright' to check source files copyright and LICENSE
+[25.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[25.893s] -- Configured cppcheck include dirs: /home/jetson/ws_1/src/livox_ros_driver2/3rdparty;/home/jetson/ws_1/src/livox_ros_driver2/src
+[25.894s] -- Configured cppcheck exclude dirs and/or files: 
+[26.147s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[26.147s] -- Configured cpplint exclude dirs and/or files: 
+[26.301s] -- Added test 'flake8' to check Python code syntax and style conventions
+[26.468s] -- Added test 'lint_cmake' to check CMake code style
+[26.623s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[26.868s] -- Added test 'uncrustify' to check C / C++ code style
+[26.868s] -- Configured uncrustify additional arguments: 
+[27.022s] -- Added test 'xmllint' to check XML markup files
+[27.238s] -- Configuring done
+[29.779s] -- Generating done
+[30.110s] -- Build files have been written to: /home/jetson/ws_1/build/livox_ros_driver2
+[30.190s] Invoked command in '/home/jetson/ws_1/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake /home/jetson/ws_1/src/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/jetson/ws_1/install/livox_ros_driver2
+[30.210s] Invoking command in '/home/jetson/ws_1/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6
+[30.792s] [35m[1mScanning dependencies of target livox_interfaces2__cpp[0m
+[30.794s] [35m[1mScanning dependencies of target livox_ros_driver2_node[0m
+[30.796s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[30.902s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[31.738s] [  5%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2_node.dir/rclcpp_components/node_main_livox_ros_driver2_node.cpp.o[0m
+[33.535s] [  5%] Built target livox_interfaces2__cpp
+[33.618s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_generator_c[0m
+[33.642s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[33.647s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[33.651s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[33.919s] [ 12%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_point__functions.c.o[0m
+[34.044s] [ 14%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_generator_c.dir/rosidl_generator_c/livox_ros_driver2/msg/detail/custom_msg__functions.c.o[0m
+[34.622s] [ 15%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_generator_c.so[0m
+[35.040s] [ 15%] Built target livox_interfaces2__rosidl_generator_c
+[35.158s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35.195s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35.871s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_cpp[0m
+[36.378s] [ 21%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[36.674s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_cpp[0m
+[36.674s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_introspection_cpp[0m
+[36.925s] [ 22%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_point__type_support.cpp.o[0m
+[37.014s] [ 24%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_point__type_support.cpp.o[0m
+[37.883s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_c[0m
+[38.259s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_introspection_c[0m
+[38.279s] [ 26%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_point__type_support.cpp.o[0m
+[38.682s] [ 28%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_point__type_support.c.o[0m
+[38.903s] [ 29%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_c.dir/rosidl_typesupport_c/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[39.038s] [ 31%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/livox_ros_driver2/msg/custom_msg__type_support.cpp.o[0m
+[39.287s] [ 33%] [32mBuilding C object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/livox_ros_driver2/msg/detail/custom_msg__type_support.c.o[0m
+[39.323s] [ 35%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/livox_ros_driver2/msg/detail/custom_msg__type_support.cpp.o[0m
+[39.337s] [ 36%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_c.so[0m
+[39.783s] [ 36%] Built target livox_interfaces2__rosidl_typesupport_c
+[39.868s] [ 38%] [32m[1mLinking C shared library liblivox_ros_driver2__rosidl_typesupport_introspection_c.so[0m
+[40.044s] [ 40%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/livox_ros_driver2/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o[0m
+[40.303s] [ 40%] Built target livox_interfaces2__rosidl_typesupport_introspection_c
+[41.458s] [ 42%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_cpp.so[0m
+[41.904s] [ 42%] Built target livox_interfaces2__rosidl_typesupport_cpp
+[42.061s] [ 43%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_introspection_cpp.so[0m
+[42.626s] [ 43%] Built target livox_interfaces2__rosidl_typesupport_introspection_cpp
+[43.724s] [ 45%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_cpp.so[0m
+[44.878s] [ 45%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_cpp
+[44.986s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[47.616s] [35m[1mScanning dependencies of target livox_interfaces2__rosidl_typesupport_fastrtps_c[0m
+[48.095s] [ 49%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_point__type_support_c.cpp.o[0m
+[48.100s] [ 50%] [32mBuilding CXX object CMakeFiles/livox_interfaces2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/livox_ros_driver2/msg/detail/custom_msg__type_support_c.cpp.o[0m
+[49.552s] [ 52%] [32m[1mLinking CXX executable livox_ros_driver2_node[0m
+[50.782s] [ 54%] [32m[1mLinking CXX shared library liblivox_ros_driver2__rosidl_typesupport_fastrtps_c.so[0m
+[51.211s] [ 54%] Built target livox_ros_driver2_node
+[51.473s] [ 54%] Built target livox_interfaces2__rosidl_typesupport_fastrtps_c
+[51.574s] [35m[1mScanning dependencies of target livox_interfaces2[0m
+[51.675s] [ 54%] Built target livox_interfaces2
+[51.776s] [35m[1mScanning dependencies of target livox_interfaces2__py[0m
+[51.781s] [35m[1mScanning dependencies of target livox_ros_driver2[0m
+[51.880s] [ 56%] [34m[1mGenerating Python code for ROS interfaces[0m
+[55.681s] [ 57%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lddc.cpp.o[0m
+[55.805s] [ 59%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/livox_ros_driver2.cpp.o[0m
+[55.810s] [ 61%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/driver_node.cpp.o[0m
+[55.850s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds.cpp.o[0m
+[55.851s] [ 64%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/lds_lidar.cpp.o[0m
+[62.331s] [ 64%] Built target livox_interfaces2__py
+[62.425s] [ 66%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/comm.cpp.o[0m
+[62.816s] [35m[1mScanning dependencies of target livox_interfaces2__python[0m
+[63.474s] [ 68%] [32mBuilding C object CMakeFiles/livox_interfaces2__python.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_point_s.c.o[0m
+[64.570s] [ 70%] [32mBuilding C object CMakeFiles/livox_interfaces2__python.dir/rosidl_generator_py/livox_ros_driver2/msg/_custom_msg_s.c.o[0m
+[64.932s] [ 71%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/ldq.cpp.o[0m
+[65.672s] [ 73%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/liblivox_interfaces2__python.so[0m
+[65.932s] [ 75%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/semaphore.cpp.o[0m
+[66.230s] [ 75%] Built target livox_interfaces2__python
+[66.352s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_c__pyext[0m
+[66.725s] [ 77%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_c.c.o[0m
+[67.667s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[68.075s] [ 78%] Built target livox_ros_driver2__rosidl_typesupport_c__pyext
+[68.167s] [ 80%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/lidar_imu_data_queue.cpp.o[0m
+[68.308s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext[0m
+[68.540s] [ 82%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[68.640s] [35m[1mScanning dependencies of target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext[0m
+[69.133s] [ 84%] [32mBuilding C object CMakeFiles/livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/livox_ros_driver2/_livox_ros_driver2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[69.570s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[70.035s] [ 85%] Built target livox_ros_driver2__rosidl_typesupport_introspection_c__pyext
+[70.111s] [ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/livox_ros_driver2/livox_ros_driver2_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[70.255s] [ 89%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/cache_index.cpp.o[0m
+[70.468s] [ 91%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o[0m
+[70.870s] [ 91%] Built target livox_ros_driver2__rosidl_typesupport_fastrtps_c__pyext
+[71.082s] [ 92%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_cfg_file.cpp.o[0m
+[74.117s] [01m[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:[m[K In static member function ‘[01m[Kstatic void livox_ros::PubHandler::OnLivoxLidarPointCloudCallback(uint32_t, uint8_t, LivoxLidarEthernetPacket*, void*)[m[K’:
+[74.118s] [01m[K/home/jetson/ws_1/src/livox_ros_driver2/src/comm/pub_handler.cpp:135:103:[m[K [01;31m[Kerror: [m[K‘[01m[KkLivoxLidarTypeMid360s[m[K’ is not a member of ‘[01m[KLivoxLidarDeviceType[m[K’
+[74.119s]   135 |   } else if (dev_type == LivoxLidarDeviceType::kLivoxLidarTypeMid360||dev_type==LivoxLidarDeviceType::[01;31m[KkLivoxLidarTypeMid360s[m[K) {
+[74.120s]       |                                                                                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[74.817s] [ 94%] [32mBuilding CXX object CMakeFiles/livox_ros_driver2.dir/src/parse_cfg_file/parse_livox_lidar_cfg.cpp.o[0m
+[75.788s] make[2]: *** [CMakeFiles/livox_ros_driver2.dir/build.make:193: CMakeFiles/livox_ros_driver2.dir/src/comm/pub_handler.cpp.o] Error 1
+[75.790s] make[2]: *** Waiting for unfinished jobs....
+[124.245s] make[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/livox_ros_driver2.dir/all] Error 2
+[124.255s] make: *** [Makefile:141: all] Error 2
+[124.425s] Invoked command in '/home/jetson/ws_1/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6

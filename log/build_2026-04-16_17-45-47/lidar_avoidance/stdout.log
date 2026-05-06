@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt
+writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt
+reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/full_system.launch.py -> /home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/launch
+running install_egg_info
+removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info
+running install_scripts
+Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance
+writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'
