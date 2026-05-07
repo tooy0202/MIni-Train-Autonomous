@@ -1,9 +1,9 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import PointCloud2
-from geometry_msgs.msg import Twist
+from std_msgs.msg import Float32, String
 import sensor_msgs_py.point_cloud2 as pc2
-import time
+
 
 class LidarAvoidance(Node):
 
@@ -14,66 +14,65 @@ class LidarAvoidance(Node):
             PointCloud2,
             '/livox/lidar',
             self.lidar_callback,
-            10)
+            10
+        )
 
-        self.pub = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        self.get_logger().info("Starting Lidar Avoidance Node")
+        self.speed_limit_pub = self.create_publisher(
+            Float32,
+            '/speed_limit',
+            10
+        )
 
-        self.blocked_start_time = None
-        self.turning = False
-        self.state = "MOVE"
+        self.obstacle_status_pub = self.create_publisher(
+            String,
+            '/obstacle_status',
+            10
+        )
+
+        self.obstacle_distance_pub = self.create_publisher(
+            Float32,
+            '/obstacle_distance',
+            10
+        )
+
+        self.state = 'UNKNOWN'
+
+        self.get_logger().info('Lidar Avoidance Node started')
 
     def lidar_callback(self, msg):
-        self.get_logger().info("Receiving Lidar Data")
-        min_dist = 999
-        new_state = "MOVE"
+        min_dist = 999.0
 
         for point in pc2.read_points(msg, skip_nans=True):
             x, y, z = point[0], point[1], point[2]
-            y = y * 0.5
 
-            if 5 > x > 0 and abs(y) < 1.0:
-                dist = (x**2 + y**2)**0.5
+            if 5.0 > x > 0.0 and abs(y) < 1.0:
+                dist = (x ** 2 + y ** 2) ** 0.5
+
                 if dist < min_dist:
                     min_dist = dist
 
-        cmd = Twist()
-
-        if self.turning:
-            cmd.linear.x = 1.0
-            cmd.angular.z = 2.0
-
-            if time.time() - self.turn_start_time > 2:
-                self.turning = False
+        if min_dist > 3.0:
+            status = 'NORMAL'
+            speed_limit = 1.0
+        elif min_dist > 1.5:
+            status = 'SLOW'
+            speed_limit = 0.5
+        elif min_dist > 0.7:
+            status = 'SLOW'
+            speed_limit = 0.25
         else:
-                if min_dist < 0.5:  
+            status = 'STOP'
+            speed_limit = 0.0
 
-                    if min_dist < 0.3:
-                        cmd.linear.x = 0.0
+        self.speed_limit_pub.publish(Float32(data=float(speed_limit)))
+        self.obstacle_status_pub.publish(String(data=status))
+        self.obstacle_distance_pub.publish(Float32(data=float(min_dist)))
 
-                        if self.blocked_start_time is None:
-                            self.blocked_start_time = time.time()
-
-                        elif time.time() - self.blocked_start_time > 3:
-                            new_state = "STOP"
-                            self.turning = True
-                            self.turn_start_time = time.time()
-
-                    else:
-                        cmd.linear.x = 0.4  
-                        new_state = "SLOW"
-                        self.blocked_start_time = None
-
-                else:
-                    new_state = "MOVE"
-                    cmd.linear.x = 1.0  
-                    self.blocked_start_time = None
-
-        if new_state != self.state:
-            self.get_logger().info(f"STATE: {new_state}")
-            self.state = new_state
-
-        self.pub.publish(cmd)
+        if status != self.state:
+            self.get_logger().info(
+                f'Obstacle status: {status}, distance: {min_dist:.2f} m, speed_limit: {speed_limit:.2f}'
+            )
+            self.state = status
 
 
 def main(args=None):

@@ -9,14 +9,13 @@ setup(
     data_files=[
         ('share/ament_index/resource_index/packages',['resource/lidar_avoidance']),
         ('share/lidar_avoidance', ['package.xml']),
-        ('share/lidar_avoidance/launch', ['launch/full_system.launch.py']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='jetson',
     maintainer_email='tooy0202@outlook.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='LiDAR front obstacle detection node for mini train project',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

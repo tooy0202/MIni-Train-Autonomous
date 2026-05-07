@@ -1,0 +1,3 @@
+[console_scripts]
+control_manager = train_control.control_manager_node:main
+

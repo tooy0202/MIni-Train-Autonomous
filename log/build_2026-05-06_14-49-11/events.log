@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.001475] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.002099] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.003176] (train_control) JobQueued: {'identifier': 'train_control', 'dependencies': OrderedDict()}
+[0.004083] (train_control) JobStarted: {'identifier': 'train_control'}
+[0.098132] (-) TimerEvent: {}
+[0.199130] (-) TimerEvent: {}
+[0.300196] (-) TimerEvent: {}
+[0.402798] (-) TimerEvent: {}
+[0.506732] (-) TimerEvent: {}
+[0.607777] (-) TimerEvent: {}
+[0.708797] (-) TimerEvent: {}
+[0.809777] (-) TimerEvent: {}
+[0.910842] (-) TimerEvent: {}
+[1.011805] (-) TimerEvent: {}
+[1.113277] (-) TimerEvent: {}
+[1.214510] (-) TimerEvent: {}
+[1.315564] (-) TimerEvent: {}
+[1.416707] (-) TimerEvent: {}
+[1.517879] (-) TimerEvent: {}
+[1.619049] (-) TimerEvent: {}
+[1.720187] (-) TimerEvent: {}
+[1.821278] (-) TimerEvent: {}
+[1.922472] (-) TimerEvent: {}
+[2.023543] (-) TimerEvent: {}
+[2.124616] (-) TimerEvent: {}
+[2.230932] (-) TimerEvent: {}
+[2.339811] (-) TimerEvent: {}
+[2.443641] (-) TimerEvent: {}
+[2.550592] (-) TimerEvent: {}
+[2.652313] (-) TimerEvent: {}
+[2.753982] (-) TimerEvent: {}
+[2.855467] (-) TimerEvent: {}
+[2.956959] (-) TimerEvent: {}
+[3.058553] (-) TimerEvent: {}
+[3.160078] (-) TimerEvent: {}
+[3.261544] (-) TimerEvent: {}
+[3.363060] (-) TimerEvent: {}
+[3.464473] (-) TimerEvent: {}
+[3.565874] (-) TimerEvent: {}
+[3.667378] (-) TimerEvent: {}
+[3.768837] (-) TimerEvent: {}
+[3.870376] (-) TimerEvent: {}
+[3.971460] (-) TimerEvent: {}
+[4.072584] (-) TimerEvent: {}
+[4.173692] (-) TimerEvent: {}
+[4.274879] (-) TimerEvent: {}
+[4.375986] (-) TimerEvent: {}
+[4.477192] (-) TimerEvent: {}
+[4.578430] (-) TimerEvent: {}
+[4.679535] (-) TimerEvent: {}
+[4.780626] (-) TimerEvent: {}
+[4.882345] (-) TimerEvent: {}
+[5.037455] (-) TimerEvent: {}
+[5.138618] (-) TimerEvent: {}
+[5.239731] (-) TimerEvent: {}
+[5.340863] (-) TimerEvent: {}
+[5.441832] (-) TimerEvent: {}
+[5.543063] (-) TimerEvent: {}
+[5.644690] (-) TimerEvent: {}
+[5.745881] (-) TimerEvent: {}
+[5.847637] (-) TimerEvent: {}
+[5.948762] (-) TimerEvent: {}
+[6.049861] (-) TimerEvent: {}
+[6.151528] (-) TimerEvent: {}
+[6.252658] (-) TimerEvent: {}
+[6.353708] (-) TimerEvent: {}
+[6.454770] (-) TimerEvent: {}
+[6.555899] (-) TimerEvent: {}
+[6.657257] (-) TimerEvent: {}
+[6.758417] (-) TimerEvent: {}
+[6.859620] (-) TimerEvent: {}
+[6.960772] (-) TimerEvent: {}
+[7.061834] (-) TimerEvent: {}
+[7.163018] (-) TimerEvent: {}
+[7.264145] (-) TimerEvent: {}
+[7.365194] (-) TimerEvent: {}
+[7.466341] (-) TimerEvent: {}
+[7.567455] (-) TimerEvent: {}
+[7.668583] (-) TimerEvent: {}
+[7.739893] (train_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/train_control', 'build', '--build-base', '/home/jetson/ws_1/build/train_control/build', 'install', '--record', '/home/jetson/ws_1/build/train_control/install.log', '--install-scripts', '$base/lib/train_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/train_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.152 54166 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ws_1/src', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67eaa74b-b3b9-4a6e-a57c-c9ca83fc8337.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a4e7b02c34ad5c65.txt', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/train_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.152 54166 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[7.768992] (-) TimerEvent: {}
+[7.871432] (-) TimerEvent: {}
+[7.978095] (-) TimerEvent: {}
+[8.081067] (-) TimerEvent: {}
+[8.182088] (-) TimerEvent: {}
+[8.283181] (-) TimerEvent: {}
+[8.384221] (-) TimerEvent: {}
+[8.485273] (-) TimerEvent: {}
+[8.586316] (-) TimerEvent: {}
+[8.687358] (-) TimerEvent: {}
+[8.788371] (-) TimerEvent: {}
+[8.889414] (-) TimerEvent: {}
+[8.990551] (-) TimerEvent: {}
+[9.091619] (-) TimerEvent: {}
+[9.192709] (-) TimerEvent: {}
+[9.293789] (-) TimerEvent: {}
+[9.394915] (-) TimerEvent: {}
+[9.496015] (-) TimerEvent: {}
+[9.515378] (train_control) StdoutLine: {'line': b'running egg_info\n'}
+[9.518608] (train_control) StdoutLine: {'line': b'creating ../../build/train_control/train_control.egg-info\n'}
+[9.519606] (train_control) StdoutLine: {'line': b'writing ../../build/train_control/train_control.egg-info/PKG-INFO\n'}
+[9.522029] (train_control) StdoutLine: {'line': b'writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt\n'}
+[9.523115] (train_control) StdoutLine: {'line': b'writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt\n'}
+[9.524203] (train_control) StdoutLine: {'line': b'writing requirements to ../../build/train_control/train_control.egg-info/requires.txt\n'}
+[9.524814] (train_control) StdoutLine: {'line': b'writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt\n'}
+[9.596209] (-) TimerEvent: {}
+[9.674310] (train_control) StdoutLine: {'line': b"writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'\n"}
+[9.696405] (-) TimerEvent: {}
+[9.797522] (-) TimerEvent: {}
+[9.880703] (train_control) StdoutLine: {'line': b"reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'\n"}
+[9.999511] (-) TimerEvent: {}
+[10.003743] (train_control) StdoutLine: {'line': b"writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'\n"}
+[10.004940] (train_control) StdoutLine: {'line': b'running build\n'}
+[10.005506] (train_control) StdoutLine: {'line': b'running build_py\n'}
+[10.007880] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/build/train_control/build\n'}
+[10.008919] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/build/train_control/build/lib\n'}
+[10.009446] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/build/train_control/build/lib/train_control\n'}
+[10.010265] (train_control) StdoutLine: {'line': b'copying train_control/control_manager_node.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control\n'}
+[10.010840] (train_control) StdoutLine: {'line': b'copying train_control/__init__.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control\n'}
+[10.011342] (train_control) StdoutLine: {'line': b'running install\n'}
+[10.014849] (train_control) StdoutLine: {'line': b'running install_lib\n'}
+[10.020605] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control\n'}
+[10.021724] (train_control) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_control/build/lib/train_control/control_manager_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control\n'}
+[10.024203] (train_control) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_control/build/lib/train_control/__init__.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control\n'}
+[10.026397] (train_control) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/control_manager_node.py to control_manager_node.cpython-38.pyc\n'}
+[10.035634] (train_control) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/__init__.py to __init__.cpython-38.pyc\n'}
+[10.036826] (train_control) StdoutLine: {'line': b'running install_data\n'}
+[10.037567] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/install/train_control/share/ament_index\n'}
+[10.038315] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/install/train_control/share/ament_index/resource_index\n'}
+[10.039036] (train_control) StdoutLine: {'line': b'creating /home/jetson/ws_1/install/train_control/share/ament_index/resource_index/packages\n'}
+[10.039540] (train_control) StdoutLine: {'line': b'copying resource/train_control -> /home/jetson/ws_1/install/train_control/share/ament_index/resource_index/packages\n'}
+[10.040185] (train_control) StdoutLine: {'line': b'copying package.xml -> /home/jetson/ws_1/install/train_control/share/train_control\n'}
+[10.041080] (train_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.050795] (train_control) StdoutLine: {'line': b'Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info\n'}
+[10.059316] (train_control) StdoutLine: {'line': b'running install_scripts\n'}
+[10.099661] (-) TimerEvent: {}
+[10.162138] (train_control) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'\n"}
+[10.199991] (-) TimerEvent: {}
+[10.287566] (train_control) CommandEnded: {'returncode': 0}
+[10.300245] (-) TimerEvent: {}
+[10.401573] (-) TimerEvent: {}
+[10.503063] (-) TimerEvent: {}
+[10.604074] (-) TimerEvent: {}
+[10.670990] (train_control) JobEnded: {'identifier': 'train_control', 'rc': 0}
+[10.678291] (-) EventReactorShutdown: {}
