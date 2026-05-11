@@ -8,6 +8,7 @@ setup.py
 ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt
 ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt
 ../../build/lidar_avoidance/lidar_avoidance.egg-info/zip-safe
+launch/livox_only.launch.py
 lidar_avoidance/__init__.py
 lidar_avoidance/avoidance_node.py
 resource/lidar_avoidance

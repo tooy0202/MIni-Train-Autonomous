@@ -1,0 +1,31 @@
+[7.407s] Invoking command in '/home/jetson/ws_1/src/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data
+[9.119s] running egg_info
+[9.120s] writing ../../build/train_vision/train_vision.egg-info/PKG-INFO
+[9.122s] writing dependency_links to ../../build/train_vision/train_vision.egg-info/dependency_links.txt
+[9.124s] writing entry points to ../../build/train_vision/train_vision.egg-info/entry_points.txt
+[9.126s] writing requirements to ../../build/train_vision/train_vision.egg-info/requires.txt
+[9.127s] writing top-level names to ../../build/train_vision/train_vision.egg-info/top_level.txt
+[9.465s] reading manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'
+[9.609s] writing manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'
+[9.612s] running build
+[9.615s] running build_py
+[9.617s] copying train_vision/pose_node.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision
+[9.618s] copying train_vision/arm_detector.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision
+[9.620s] copying train_vision/standing_detector.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision
+[9.621s] running install
+[9.623s] running install_lib
+[9.628s] copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/pose_node.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision
+[9.630s] copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/arm_detector.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision
+[9.631s] copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/standing_detector.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision
+[9.635s] byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/pose_node.py to pose_node.cpython-38.pyc
+[9.650s] byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/arm_detector.py to arm_detector.cpython-38.pyc
+[9.656s] byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/standing_detector.py to standing_detector.cpython-38.pyc
+[9.659s] running install_data
+[9.660s] running install_egg_info
+[9.669s] removing '/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info' (and everything under it)
+[9.671s] Copying ../../build/train_vision/train_vision.egg-info to /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info
+[9.793s] running install_scripts
+[9.883s] Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[9.884s] Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[9.888s] writing list of installed files to '/home/jetson/ws_1/build/train_vision/install.log'
+[10.010s] Invoked command in '/home/jetson/ws_1/src/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data

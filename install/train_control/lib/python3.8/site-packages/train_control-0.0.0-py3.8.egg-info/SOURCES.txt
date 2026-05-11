@@ -8,6 +8,7 @@ setup.py
 ../../build/train_control/train_control.egg-info/requires.txt
 ../../build/train_control/train_control.egg-info/top_level.txt
 ../../build/train_control/train_control.egg-info/zip-safe
+launch/train_sim.launch.py
 resource/train_control
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/train_control/train_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt
+writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt
+writing requirements to ../../build/train_control/train_control.egg-info/requires.txt
+writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt
+reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/jetson/ws_1/install/train_control/share/train_control/launch
+copying launch/train_sim.launch.py -> /home/jetson/ws_1/install/train_control/share/train_control/launch
+running install_egg_info
+removing '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info
+running install_scripts
+Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'

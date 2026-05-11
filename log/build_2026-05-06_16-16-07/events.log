@@ -1,0 +1,99 @@
+[0.000000] (-) TimerEvent: {}
+[0.001103] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.001419] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.002297] (train_control) JobQueued: {'identifier': 'train_control', 'dependencies': OrderedDict()}
+[0.003802] (train_control) JobStarted: {'identifier': 'train_control'}
+[0.099618] (-) TimerEvent: {}
+[0.206220] (-) TimerEvent: {}
+[0.310242] (-) TimerEvent: {}
+[0.411301] (-) TimerEvent: {}
+[0.512456] (-) TimerEvent: {}
+[0.659533] (-) TimerEvent: {}
+[0.760577] (-) TimerEvent: {}
+[0.861604] (-) TimerEvent: {}
+[0.962674] (-) TimerEvent: {}
+[1.063710] (-) TimerEvent: {}
+[1.164697] (-) TimerEvent: {}
+[1.265785] (-) TimerEvent: {}
+[1.366946] (-) TimerEvent: {}
+[1.470314] (-) TimerEvent: {}
+[1.571466] (-) TimerEvent: {}
+[1.673105] (-) TimerEvent: {}
+[1.774115] (-) TimerEvent: {}
+[1.880752] (-) TimerEvent: {}
+[2.000010] (-) TimerEvent: {}
+[2.123468] (-) TimerEvent: {}
+[2.225875] (-) TimerEvent: {}
+[2.327454] (-) TimerEvent: {}
+[2.428932] (-) TimerEvent: {}
+[2.530057] (-) TimerEvent: {}
+[2.631311] (-) TimerEvent: {}
+[2.732984] (-) TimerEvent: {}
+[2.834168] (-) TimerEvent: {}
+[2.935762] (-) TimerEvent: {}
+[3.037217] (-) TimerEvent: {}
+[3.138418] (-) TimerEvent: {}
+[3.239998] (-) TimerEvent: {}
+[3.341140] (-) TimerEvent: {}
+[3.442253] (-) TimerEvent: {}
+[3.543712] (-) TimerEvent: {}
+[3.644929] (-) TimerEvent: {}
+[3.746363] (-) TimerEvent: {}
+[3.847670] (-) TimerEvent: {}
+[3.948872] (-) TimerEvent: {}
+[4.050026] (-) TimerEvent: {}
+[4.151150] (-) TimerEvent: {}
+[4.252508] (-) TimerEvent: {}
+[4.353629] (-) TimerEvent: {}
+[4.454665] (-) TimerEvent: {}
+[4.555772] (-) TimerEvent: {}
+[4.656929] (-) TimerEvent: {}
+[4.758047] (-) TimerEvent: {}
+[4.790934] (train_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/train_control', 'build', '--build-base', '/home/jetson/ws_1/build/train_control/build', 'install', '--record', '/home/jetson/ws_1/build/train_control/install.log', '--install-scripts', '$base/lib/train_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/train_control', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.152 54166 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ws_1/src', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67eaa74b-b3b9-4a6e-a57c-c9ca83fc8337.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a4e7b02c34ad5c65.txt', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/train_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.152 54166 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[4.858998] (-) TimerEvent: {}
+[4.962258] (-) TimerEvent: {}
+[5.063316] (-) TimerEvent: {}
+[5.164627] (-) TimerEvent: {}
+[5.265766] (-) TimerEvent: {}
+[5.367009] (-) TimerEvent: {}
+[5.468767] (-) TimerEvent: {}
+[5.668054] (-) TimerEvent: {}
+[5.769262] (-) TimerEvent: {}
+[5.870827] (-) TimerEvent: {}
+[5.972344] (-) TimerEvent: {}
+[6.073392] (-) TimerEvent: {}
+[6.174537] (-) TimerEvent: {}
+[6.275662] (-) TimerEvent: {}
+[6.377208] (-) TimerEvent: {}
+[6.478256] (-) TimerEvent: {}
+[6.480608] (train_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.485010] (train_control) StdoutLine: {'line': b'writing ../../build/train_control/train_control.egg-info/PKG-INFO\n'}
+[6.486903] (train_control) StdoutLine: {'line': b'writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt\n'}
+[6.492323] (train_control) StdoutLine: {'line': b'writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt\n'}
+[6.493691] (train_control) StdoutLine: {'line': b'writing requirements to ../../build/train_control/train_control.egg-info/requires.txt\n'}
+[6.495894] (train_control) StdoutLine: {'line': b'writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt\n'}
+[6.578479] (-) TimerEvent: {}
+[6.679873] (-) TimerEvent: {}
+[6.709842] (train_control) StdoutLine: {'line': b"reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'\n"}
+[6.715924] (train_control) StdoutLine: {'line': b"writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'\n"}
+[6.717369] (train_control) StdoutLine: {'line': b'running build\n'}
+[6.718322] (train_control) StdoutLine: {'line': b'running build_py\n'}
+[6.720270] (train_control) StdoutLine: {'line': b'copying train_control/control_manager_node.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control\n'}
+[6.726655] (train_control) StdoutLine: {'line': b'running install\n'}
+[6.732029] (train_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.738256] (train_control) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_control/build/lib/train_control/control_manager_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control\n'}
+[6.743227] (train_control) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/control_manager_node.py to control_manager_node.cpython-38.pyc\n'}
+[6.754361] (train_control) StdoutLine: {'line': b'running install_data\n'}
+[6.755844] (train_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.765425] (train_control) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.769535] (train_control) StdoutLine: {'line': b'Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info\n'}
+[6.779295] (train_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.780554] (-) TimerEvent: {}
+[6.881629] (-) TimerEvent: {}
+[6.884841] (train_control) StdoutLine: {'line': b'Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control\n'}
+[6.888075] (train_control) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'\n"}
+[6.982063] (-) TimerEvent: {}
+[7.019295] (train_control) CommandEnded: {'returncode': 0}
+[7.083855] (-) TimerEvent: {}
+[7.127053] (train_control) JobEnded: {'identifier': 'train_control', 'rc': 0}
+[7.141301] (-) EventReactorShutdown: {}

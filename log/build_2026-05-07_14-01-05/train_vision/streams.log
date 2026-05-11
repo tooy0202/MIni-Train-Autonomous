@@ -1,0 +1,25 @@
+[4.300s] Invoking command in '/home/jetson/ws_1/src/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data
+[5.868s] running egg_info
+[5.871s] writing ../../build/train_vision/train_vision.egg-info/PKG-INFO
+[5.872s] writing dependency_links to ../../build/train_vision/train_vision.egg-info/dependency_links.txt
+[5.874s] writing entry points to ../../build/train_vision/train_vision.egg-info/entry_points.txt
+[5.880s] writing requirements to ../../build/train_vision/train_vision.egg-info/requires.txt
+[5.881s] writing top-level names to ../../build/train_vision/train_vision.egg-info/top_level.txt
+[6.080s] reading manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'
+[6.086s] writing manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'
+[6.088s] running build
+[6.089s] running build_py
+[6.091s] copying train_vision/pose_node.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision
+[6.094s] running install
+[6.099s] running install_lib
+[6.106s] copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/pose_node.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision
+[6.111s] byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/pose_node.py to pose_node.cpython-38.pyc
+[6.120s] running install_data
+[6.121s] running install_egg_info
+[6.131s] removing '/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info' (and everything under it)
+[6.134s] Copying ../../build/train_vision/train_vision.egg-info to /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info
+[6.143s] running install_scripts
+[6.241s] Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[6.242s] Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[6.251s] writing list of installed files to '/home/jetson/ws_1/build/train_vision/install.log'
+[6.372s] Invoked command in '/home/jetson/ws_1/src/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data

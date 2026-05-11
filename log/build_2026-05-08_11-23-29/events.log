@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.001342] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.002582] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.003494] (-) JobUnselected: {'identifier': 'train_control'}
+[0.004248] (train_vision) JobQueued: {'identifier': 'train_vision', 'dependencies': OrderedDict()}
+[0.004645] (train_vision) JobStarted: {'identifier': 'train_vision'}
+[0.098307] (-) TimerEvent: {}
+[0.199410] (-) TimerEvent: {}
+[0.300806] (-) TimerEvent: {}
+[0.403432] (-) TimerEvent: {}
+[0.506676] (-) TimerEvent: {}
+[0.609415] (-) TimerEvent: {}
+[0.713300] (-) TimerEvent: {}
+[0.814378] (-) TimerEvent: {}
+[0.915428] (-) TimerEvent: {}
+[1.016484] (-) TimerEvent: {}
+[1.117653] (-) TimerEvent: {}
+[1.218758] (-) TimerEvent: {}
+[1.319986] (-) TimerEvent: {}
+[1.421257] (-) TimerEvent: {}
+[1.522304] (-) TimerEvent: {}
+[1.702128] (-) TimerEvent: {}
+[1.803171] (-) TimerEvent: {}
+[1.904157] (-) TimerEvent: {}
+[2.005337] (-) TimerEvent: {}
+[2.106416] (-) TimerEvent: {}
+[2.207475] (-) TimerEvent: {}
+[2.308547] (-) TimerEvent: {}
+[2.409807] (-) TimerEvent: {}
+[2.511886] (-) TimerEvent: {}
+[2.615080] (-) TimerEvent: {}
+[2.717035] (-) TimerEvent: {}
+[2.820733] (-) TimerEvent: {}
+[2.921866] (-) TimerEvent: {}
+[3.023574] (-) TimerEvent: {}
+[3.124678] (-) TimerEvent: {}
+[3.225838] (-) TimerEvent: {}
+[3.326856] (-) TimerEvent: {}
+[3.427918] (-) TimerEvent: {}
+[3.528932] (-) TimerEvent: {}
+[3.629970] (-) TimerEvent: {}
+[3.730964] (-) TimerEvent: {}
+[3.831871] (-) TimerEvent: {}
+[3.932854] (-) TimerEvent: {}
+[4.033903] (-) TimerEvent: {}
+[4.134965] (-) TimerEvent: {}
+[4.235989] (-) TimerEvent: {}
+[4.337030] (-) TimerEvent: {}
+[4.438143] (-) TimerEvent: {}
+[4.539131] (-) TimerEvent: {}
+[4.640138] (-) TimerEvent: {}
+[4.741377] (-) TimerEvent: {}
+[4.842498] (-) TimerEvent: {}
+[4.943546] (-) TimerEvent: {}
+[5.044728] (-) TimerEvent: {}
+[5.145904] (-) TimerEvent: {}
+[5.246964] (-) TimerEvent: {}
+[5.348002] (-) TimerEvent: {}
+[5.449029] (-) TimerEvent: {}
+[5.550094] (-) TimerEvent: {}
+[5.651170] (-) TimerEvent: {}
+[5.752204] (-) TimerEvent: {}
+[5.853286] (-) TimerEvent: {}
+[5.954324] (-) TimerEvent: {}
+[6.055465] (-) TimerEvent: {}
+[6.156712] (-) TimerEvent: {}
+[6.257899] (-) TimerEvent: {}
+[6.359002] (-) TimerEvent: {}
+[6.460108] (-) TimerEvent: {}
+[6.561112] (-) TimerEvent: {}
+[6.662168] (-) TimerEvent: {}
+[6.763249] (-) TimerEvent: {}
+[6.864477] (-) TimerEvent: {}
+[6.965691] (-) TimerEvent: {}
+[7.066839] (-) TimerEvent: {}
+[7.167968] (-) TimerEvent: {}
+[7.269000] (-) TimerEvent: {}
+[7.370101] (-) TimerEvent: {}
+[7.471201] (-) TimerEvent: {}
+[7.572324] (-) TimerEvent: {}
+[7.673504] (-) TimerEvent: {}
+[7.774669] (-) TimerEvent: {}
+[7.816397] (train_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/train_vision', 'build', '--build-base', '/home/jetson/ws_1/build/train_vision/build', 'install', '--record', '/home/jetson/ws_1/build/train_vision/install.log', '--install-scripts', '$base/lib/train_vision', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/train_vision', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'th_TH.UTF-8', 'SSH_AGENT_PID': '2460', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'LC_MONETARY': 'th_TH.UTF-8', 'MANAGERPID': '1820', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3db5f44bd3875b6f963163cb69fd4158', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', 'JOURNAL_STREAM': '8:54378', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jetson-desktop:@/tmp/.ICE-unix/2516,unix/jetson-desktop:/tmp/.ICE-unix/2516', 'INVOCATION_ID': '11ac41c26b4e4a6c885740996c90aa1c', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2e677006_dadc_453a_9218_5e4c7a36e69a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/train_vision', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=3db5f44bd3875b6f963163cb69fd4158', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[7.874913] (-) TimerEvent: {}
+[7.975830] (-) TimerEvent: {}
+[8.076833] (-) TimerEvent: {}
+[8.178169] (-) TimerEvent: {}
+[8.284281] (-) TimerEvent: {}
+[8.399342] (-) TimerEvent: {}
+[8.501472] (-) TimerEvent: {}
+[8.603574] (-) TimerEvent: {}
+[8.705714] (-) TimerEvent: {}
+[8.807019] (-) TimerEvent: {}
+[8.908365] (-) TimerEvent: {}
+[9.009775] (-) TimerEvent: {}
+[9.111184] (-) TimerEvent: {}
+[9.212622] (-) TimerEvent: {}
+[9.314076] (-) TimerEvent: {}
+[9.415440] (-) TimerEvent: {}
+[9.516892] (-) TimerEvent: {}
+[9.618446] (-) TimerEvent: {}
+[9.719549] (-) TimerEvent: {}
+[9.820581] (-) TimerEvent: {}
+[9.846328] (train_vision) StdoutLine: {'line': b'running egg_info\n'}
+[9.849838] (train_vision) StdoutLine: {'line': b'writing ../../build/train_vision/train_vision.egg-info/PKG-INFO\n'}
+[9.851999] (train_vision) StdoutLine: {'line': b'writing dependency_links to ../../build/train_vision/train_vision.egg-info/dependency_links.txt\n'}
+[9.856545] (train_vision) StdoutLine: {'line': b'writing entry points to ../../build/train_vision/train_vision.egg-info/entry_points.txt\n'}
+[9.858262] (train_vision) StdoutLine: {'line': b'writing requirements to ../../build/train_vision/train_vision.egg-info/requires.txt\n'}
+[9.859284] (train_vision) StdoutLine: {'line': b'writing top-level names to ../../build/train_vision/train_vision.egg-info/top_level.txt\n'}
+[9.920795] (-) TimerEvent: {}
+[10.021846] (-) TimerEvent: {}
+[10.122803] (-) TimerEvent: {}
+[10.223825] (-) TimerEvent: {}
+[10.257734] (train_vision) StdoutLine: {'line': b"reading manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'\n"}
+[10.324051] (-) TimerEvent: {}
+[10.416064] (train_vision) StdoutLine: {'line': b"writing manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'\n"}
+[10.417362] (train_vision) StdoutLine: {'line': b'running build\n'}
+[10.418134] (train_vision) StdoutLine: {'line': b'running build_py\n'}
+[10.418649] (train_vision) StdoutLine: {'line': b'copying train_vision/pose_node.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision\n'}
+[10.420444] (train_vision) StdoutLine: {'line': b'running install\n'}
+[10.424220] (-) TimerEvent: {}
+[10.425220] (train_vision) StdoutLine: {'line': b'running install_lib\n'}
+[10.430985] (train_vision) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/pose_node.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision\n'}
+[10.435915] (train_vision) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/pose_node.py to pose_node.cpython-38.pyc\n'}
+[10.454413] (train_vision) StdoutLine: {'line': b'running install_data\n'}
+[10.457964] (train_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.467427] (train_vision) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.469771] (train_vision) StdoutLine: {'line': b'Copying ../../build/train_vision/train_vision.egg-info to /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info\n'}
+[10.524418] (-) TimerEvent: {}
+[10.615557] (train_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[10.624678] (-) TimerEvent: {}
+[10.711126] (train_vision) StdoutLine: {'line': b'Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[10.712427] (train_vision) StdoutLine: {'line': b'Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[10.722518] (train_vision) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/train_vision/install.log'\n"}
+[10.724814] (-) TimerEvent: {}
+[10.825821] (-) TimerEvent: {}
+[10.841782] (train_vision) CommandEnded: {'returncode': 0}
+[10.926003] (-) TimerEvent: {}
+[11.027058] (-) TimerEvent: {}
+[11.128147] (-) TimerEvent: {}
+[11.220180] (train_vision) JobEnded: {'identifier': 'train_vision', 'rc': 0}
+[11.226603] (-) EventReactorShutdown: {}

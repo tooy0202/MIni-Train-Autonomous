@@ -1,0 +1,95 @@
+[0.000000] (-) TimerEvent: {}
+[0.001350] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.002637] (-) JobUnselected: {'identifier': 'train_control'}
+[0.003522] (lidar_avoidance) JobQueued: {'identifier': 'lidar_avoidance', 'dependencies': OrderedDict([('livox_ros_driver2', '/home/jetson/ws_1/install/livox_ros_driver2')])}
+[0.004344] (lidar_avoidance) JobStarted: {'identifier': 'lidar_avoidance'}
+[0.099468] (-) TimerEvent: {}
+[0.203973] (-) TimerEvent: {}
+[0.307741] (-) TimerEvent: {}
+[0.408825] (-) TimerEvent: {}
+[0.509876] (-) TimerEvent: {}
+[0.610922] (-) TimerEvent: {}
+[0.711988] (-) TimerEvent: {}
+[0.813145] (-) TimerEvent: {}
+[0.914182] (-) TimerEvent: {}
+[1.015223] (-) TimerEvent: {}
+[1.116253] (-) TimerEvent: {}
+[1.217602] (-) TimerEvent: {}
+[1.318654] (-) TimerEvent: {}
+[1.419747] (-) TimerEvent: {}
+[1.520885] (-) TimerEvent: {}
+[1.621886] (-) TimerEvent: {}
+[1.723298] (-) TimerEvent: {}
+[1.831097] (-) TimerEvent: {}
+[1.934979] (-) TimerEvent: {}
+[2.038273] (-) TimerEvent: {}
+[2.139331] (-) TimerEvent: {}
+[2.240436] (-) TimerEvent: {}
+[2.341516] (-) TimerEvent: {}
+[2.442642] (-) TimerEvent: {}
+[2.543667] (-) TimerEvent: {}
+[2.644938] (-) TimerEvent: {}
+[2.746114] (-) TimerEvent: {}
+[2.847308] (-) TimerEvent: {}
+[2.948331] (-) TimerEvent: {}
+[3.049405] (-) TimerEvent: {}
+[3.150360] (-) TimerEvent: {}
+[3.251412] (-) TimerEvent: {}
+[3.352698] (-) TimerEvent: {}
+[3.453752] (-) TimerEvent: {}
+[3.554723] (-) TimerEvent: {}
+[3.655739] (-) TimerEvent: {}
+[3.756917] (-) TimerEvent: {}
+[3.858012] (-) TimerEvent: {}
+[3.959070] (-) TimerEvent: {}
+[4.144820] (-) TimerEvent: {}
+[4.245973] (-) TimerEvent: {}
+[4.347720] (-) TimerEvent: {}
+[4.384772] (lidar_avoidance) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_avoidance', 'build', '--build-base', '/home/jetson/ws_1/build/lidar_avoidance/build', 'install', '--record', '/home/jetson/ws_1/build/lidar_avoidance/install.log', '--install-scripts', '$base/lib/lidar_avoidance', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/lidar_avoidance', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.152 54166 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/ws_1/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ws_1/src/train_control', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-67eaa74b-b3b9-4a6e-a57c-c9ca83fc8337.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '8', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a4e7b02c34ad5c65.txt', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/lidar_avoidance', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.152 54166 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[4.449136] (-) TimerEvent: {}
+[4.552739] (-) TimerEvent: {}
+[4.653837] (-) TimerEvent: {}
+[4.754916] (-) TimerEvent: {}
+[4.855883] (-) TimerEvent: {}
+[4.956920] (-) TimerEvent: {}
+[5.057981] (-) TimerEvent: {}
+[5.159031] (-) TimerEvent: {}
+[5.260160] (-) TimerEvent: {}
+[5.361381] (-) TimerEvent: {}
+[5.462482] (-) TimerEvent: {}
+[5.563529] (-) TimerEvent: {}
+[5.664671] (-) TimerEvent: {}
+[5.765698] (-) TimerEvent: {}
+[5.866754] (-) TimerEvent: {}
+[5.967795] (-) TimerEvent: {}
+[5.978906] (lidar_avoidance) StdoutLine: {'line': b'running egg_info\n'}
+[5.982024] (lidar_avoidance) StdoutLine: {'line': b'writing ../../build/lidar_avoidance/lidar_avoidance.egg-info/PKG-INFO\n'}
+[5.983782] (lidar_avoidance) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_avoidance/lidar_avoidance.egg-info/dependency_links.txt\n'}
+[5.985653] (lidar_avoidance) StdoutLine: {'line': b'writing entry points to ../../build/lidar_avoidance/lidar_avoidance.egg-info/entry_points.txt\n'}
+[5.987991] (lidar_avoidance) StdoutLine: {'line': b'writing requirements to ../../build/lidar_avoidance/lidar_avoidance.egg-info/requires.txt\n'}
+[5.989476] (lidar_avoidance) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_avoidance/lidar_avoidance.egg-info/top_level.txt\n'}
+[6.067996] (-) TimerEvent: {}
+[6.169117] (-) TimerEvent: {}
+[6.188117] (lidar_avoidance) StdoutLine: {'line': b"reading manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[6.193751] (lidar_avoidance) StdoutLine: {'line': b"writing manifest file '../../build/lidar_avoidance/lidar_avoidance.egg-info/SOURCES.txt'\n"}
+[6.194881] (lidar_avoidance) StdoutLine: {'line': b'running build\n'}
+[6.195563] (lidar_avoidance) StdoutLine: {'line': b'running build_py\n'}
+[6.198250] (lidar_avoidance) StdoutLine: {'line': b'copying lidar_avoidance/avoidance_node.py -> /home/jetson/ws_1/build/lidar_avoidance/build/lib/lidar_avoidance\n'}
+[6.200358] (lidar_avoidance) StdoutLine: {'line': b'running install\n'}
+[6.205275] (lidar_avoidance) StdoutLine: {'line': b'running install_lib\n'}
+[6.211553] (lidar_avoidance) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/lidar_avoidance/build/lib/lidar_avoidance/avoidance_node.py -> /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance\n'}
+[6.215764] (lidar_avoidance) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance/avoidance_node.py to avoidance_node.cpython-38.pyc\n'}
+[6.226266] (lidar_avoidance) StdoutLine: {'line': b'running install_data\n'}
+[6.227573] (lidar_avoidance) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.237631] (lidar_avoidance) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[6.240102] (lidar_avoidance) StdoutLine: {'line': b'Copying ../../build/lidar_avoidance/lidar_avoidance.egg-info to /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar_avoidance-0.0.0-py3.8.egg-info\n'}
+[6.248716] (lidar_avoidance) StdoutLine: {'line': b'running install_scripts\n'}
+[6.269281] (-) TimerEvent: {}
+[6.341455] (lidar_avoidance) StdoutLine: {'line': b'Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance\n'}
+[6.343614] (lidar_avoidance) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/lidar_avoidance/install.log'\n"}
+[6.369494] (-) TimerEvent: {}
+[6.459500] (lidar_avoidance) CommandEnded: {'returncode': 0}
+[6.474926] (-) TimerEvent: {}
+[6.576802] (lidar_avoidance) JobEnded: {'identifier': 'lidar_avoidance', 'rc': 0}
+[6.582540] (-) TimerEvent: {}
+[6.583052] (-) EventReactorShutdown: {}

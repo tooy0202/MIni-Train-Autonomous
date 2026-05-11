@@ -4,7 +4,6 @@ from sensor_msgs.msg import PointCloud2
 from std_msgs.msg import Float32, String
 import sensor_msgs_py.point_cloud2 as pc2
 
-
 class LidarAvoidance(Node):
 
     def __init__(self):
@@ -51,7 +50,7 @@ class LidarAvoidance(Node):
                 if dist < min_dist:
                     min_dist = dist
 
-        if min_dist > 3.0:
+        if min_dist > 2.0:
             status = 'NORMAL'
             speed_limit = 1.0
         elif min_dist > 1.5:
@@ -73,7 +72,6 @@ class LidarAvoidance(Node):
                 f'Obstacle status: {status}, distance: {min_dist:.2f} m, speed_limit: {speed_limit:.2f}'
             )
             self.state = status
-
 
 def main(args=None):
     rclpy.init(args=args)

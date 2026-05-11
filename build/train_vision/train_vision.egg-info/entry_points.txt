@@ -1,0 +1,4 @@
+[console_scripts]
+camera = train_vision.camera_node:main
+pose = train_vision.pose_node:main
+
