@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.002585] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.003550] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.004018] (-) JobUnselected: {'identifier': 'train_control'}
+[0.004931] (-) JobUnselected: {'identifier': 'train_vision'}
+[0.006412] (-) EventReactorShutdown: {}

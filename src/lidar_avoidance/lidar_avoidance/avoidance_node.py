@@ -40,25 +40,45 @@ class LidarAvoidance(Node):
 
     def lidar_callback(self, msg):
         min_dist = 999.0
+        debug_x = 0.0
+        debug_y = 0.0
+        debug_z = 0.0
 
         for point in pc2.read_points(msg, skip_nans=True):
             x, y, z = point[0], point[1], point[2]
 
-            if 5.0 > x > 0.0 and abs(y) < 1.0:
+            if (
+                5.0 > x > 0.0 and
+                abs(y) < 0.5 and
+                0.1 < z < 1.5
+            ):
                 dist = (x ** 2 + y ** 2) ** 0.5
 
                 if dist < min_dist:
                     min_dist = dist
+                    debug_x = x
+                    debug_y = y
+                    debug_z = z
+
+        status = 'NORMAL'
+        speed_limit = 1.0
+
+        # if min_dist <= 0.0 or min_dist == 999.0:
+        #     status = 'NORMAL'
+        #     speed_limit = 0.0
 
         if min_dist > 2.0:
             status = 'NORMAL'
             speed_limit = 1.0
+
         elif min_dist > 1.5:
             status = 'SLOW'
             speed_limit = 0.5
+
         elif min_dist > 0.7:
             status = 'SLOW'
             speed_limit = 0.25
+
         else:
             status = 'STOP'
             speed_limit = 0.0
@@ -69,7 +89,9 @@ class LidarAvoidance(Node):
 
         if status != self.state:
             self.get_logger().info(
-                f'Obstacle status: {status}, distance: {min_dist:.2f} m, speed_limit: {speed_limit:.2f}'
+                f'Obstacle status: {status}, distance: {min_dist:.2f} m, '
+                f'speed_limit: {speed_limit:.2f}, '
+                f'x={debug_x:.2f}, y={debug_y:.2f}, z={debug_z:.2f}'
             )
             self.state = status
 

@@ -1,0 +1,22 @@
+[4.604s] Invoking command in '/home/jetson/ws_1/src/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[6.201s] running egg_info
+[6.204s] writing ../../build/train_control/train_control.egg-info/PKG-INFO
+[6.206s] writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt
+[6.211s] writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt
+[6.214s] writing requirements to ../../build/train_control/train_control.egg-info/requires.txt
+[6.217s] writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt
+[6.427s] reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[6.433s] writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[6.434s] running build
+[6.435s] running build_py
+[6.442s] running install
+[6.449s] running install_lib
+[6.461s] running install_data
+[6.462s] running install_egg_info
+[6.475s] removing '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info' (and everything under it)
+[6.478s] Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info
+[6.487s] running install_scripts
+[6.600s] Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+[6.602s] Installing esp32_wifi script to /home/jetson/ws_1/install/train_control/lib/train_control
+[6.606s] writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'
+[6.729s] Invoked command in '/home/jetson/ws_1/src/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data

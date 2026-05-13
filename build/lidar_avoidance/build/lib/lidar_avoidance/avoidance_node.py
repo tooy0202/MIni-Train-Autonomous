@@ -44,24 +44,31 @@ class LidarAvoidance(Node):
         for point in pc2.read_points(msg, skip_nans=True):
             x, y, z = point[0], point[1], point[2]
 
-            if 5.0 > x > 0.0 and abs(y) < 1.0:
+            if (
+                    5.0 > x > 0.4 and
+                    abs(y) < 0.5 and
+                    0.5 < z < 1.5
+                ):
                 dist = (x ** 2 + y ** 2) ** 0.5
 
                 if dist < min_dist:
                     min_dist = dist
 
-        if min_dist > 2.0:
-            status = 'NORMAL'
-            speed_limit = 1.0
-        elif min_dist > 1.5:
-            status = 'SLOW'
-            speed_limit = 0.5
-        elif min_dist > 0.7:
-            status = 'SLOW'
-            speed_limit = 0.25
-        else:
-            status = 'STOP'
-            speed_limit = 0.0
+                if min_dist > 2.0:
+                    status = 'NORMAL'
+                    speed_limit = 1.0
+
+                elif min_dist > 1.5:
+                    status = 'SLOW'
+                    speed_limit = 0.5
+
+                elif min_dist > 1.0:
+                    status = 'SLOW'
+                    speed_limit = 0.25
+
+                else:
+                    status = 'STOP'
+                    speed_limit = 0.0
 
         self.speed_limit_pub.publish(Float32(data=float(speed_limit)))
         self.obstacle_status_pub.publish(String(data=status))
@@ -72,6 +79,10 @@ class LidarAvoidance(Node):
                 f'Obstacle status: {status}, distance: {min_dist:.2f} m, speed_limit: {speed_limit:.2f}'
             )
             self.state = status
+            self.get_logger().info(
+                f'x={x:.2f}, y={y:.2f}, z={z:.2f}',
+                throttle_duration_sec=1.0
+            )
 
 def main(args=None):
     rclpy.init(args=args)

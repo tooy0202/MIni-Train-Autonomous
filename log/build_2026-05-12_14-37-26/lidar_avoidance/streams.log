@@ -1,0 +1,21 @@
+[5.459s] Invoking command in '/home/jetson/ws_1/build/lidar_avoidance': LD_LIBRARY_PATH=/home/jetson/ws_1/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:/home/jetson/ws_1/build/train_vision:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/lidar_avoidance/build --no-deps symlink_data --force
+[7.108s] running develop
+[8.047s] running egg_info
+[8.048s] writing lidar_avoidance.egg-info/PKG-INFO
+[8.050s] writing dependency_links to lidar_avoidance.egg-info/dependency_links.txt
+[8.054s] writing entry points to lidar_avoidance.egg-info/entry_points.txt
+[8.056s] writing requirements to lidar_avoidance.egg-info/requires.txt
+[8.058s] writing top-level names to lidar_avoidance.egg-info/top_level.txt
+[8.239s] reading manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+[8.244s] writing manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+[8.523s] running build_ext
+[8.525s] Creating /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/site.py
+[8.543s] Creating /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar-avoidance.egg-link (link to .)
+[8.548s] Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance
+[8.550s] 
+[8.550s] Installed /home/jetson/ws_1/build/lidar_avoidance
+[8.551s] running symlink_data
+[8.552s] symbolically linking /home/jetson/ws_1/build/lidar_avoidance/resource/lidar_avoidance -> /home/jetson/ws_1/install/lidar_avoidance/share/ament_index/resource_index/packages
+[8.553s] symbolically linking /home/jetson/ws_1/build/lidar_avoidance/package.xml -> /home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance
+[8.554s] symbolically linking /home/jetson/ws_1/build/lidar_avoidance/launch/livox_only.launch.py -> /home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/launch
+[8.715s] Invoked command in '/home/jetson/ws_1/build/lidar_avoidance' returned '0': LD_LIBRARY_PATH=/home/jetson/ws_1/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:/home/jetson/ws_1/build/train_vision:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/lidar_avoidance/build --no-deps symlink_data --force

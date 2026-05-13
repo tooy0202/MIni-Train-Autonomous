@@ -2,8 +2,6 @@ import rclpy
 from rclpy.node import Node
 
 from std_msgs.msg import Float32, String
-from geometry_msgs.msg import Twist
-
 
 class ControlManagerNode(Node):
     def __init__(self):
@@ -28,15 +26,15 @@ class ControlManagerNode(Node):
             10
         )
 
-        self.cmd_pub = self.create_publisher(
-            Twist,
-            '/turtle1/cmd_vel',
-            10
-        )
-
         self.status_pub = self.create_publisher(
             String,
             '/train_status',
+            10
+        )
+
+        self.motor_pub = self.create_publisher(
+            String,
+            '/motor_command',
             10
         )
 
@@ -51,17 +49,21 @@ class ControlManagerNode(Node):
         self.obstacle_status = msg.data
 
     def control_loop(self):
-        cmd = Twist()
-
         final_speed = min(self.target_speed, self.speed_limit)
 
         if self.obstacle_status == 'STOP':
             final_speed = 0.0
 
-        cmd.linear.x = final_speed
-        cmd.angular.z = 0.0
+        if final_speed <= 0.4:
+            motor_cmd = 'STOP'
+        elif final_speed <= 0.25:
+            motor_cmd = 'FORWARD:50'
+        elif final_speed <= 0.5:
+            motor_cmd = 'FORWARD:70'
+        else:
+            motor_cmd = 'FORWARD:100'
 
-        self.cmd_pub.publish(cmd)
+        self.motor_pub.publish(String(data=motor_cmd))
 
         status = String()
         status.data = (
@@ -69,9 +71,15 @@ class ControlManagerNode(Node):
             f'target_speed={self.target_speed:.2f}, '
             f'speed_limit={self.speed_limit:.2f}, '
             f'final_speed={final_speed:.2f}, '
-            f'obstacle={self.obstacle_status}'
+            f'obstacle={self.obstacle_status}, '
+            f'motor_cmd={motor_cmd}'
         )
         self.status_pub.publish(status)
+
+        self.get_logger().info(
+            status.data,
+            throttle_duration_sec=1.0
+        )
 
 
 def main(args=None):

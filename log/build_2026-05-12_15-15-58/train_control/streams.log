@@ -1,0 +1,40 @@
+[4.838s] Invoking command in '/home/jetson/ws_1/build/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ws_1/build/train_control/build
+[6.630s] running develop
+[7.570s] Removing /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train-control.egg-link (link to .)
+[7.683s] Invoked command in '/home/jetson/ws_1/build/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ws_1/build/train_control/build
+[7.882s] Invoking command in '/home/jetson/ws_1/src/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data --force
+[9.475s] running egg_info
+[9.479s] writing ../../build/train_control/train_control.egg-info/PKG-INFO
+[9.482s] writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt
+[9.484s] writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt
+[9.485s] writing requirements to ../../build/train_control/train_control.egg-info/requires.txt
+[9.486s] writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt
+[9.692s] reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[9.837s] writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[9.838s] running build
+[9.838s] running build_py
+[9.840s] copying train_control/control_manager_node.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control
+[9.843s] running install
+[9.849s] running install_lib
+[9.855s] creating /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.856s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/control_manager_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.857s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/esp32_motor_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.858s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/__init__.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.858s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/esp32_serial_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.860s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/esp32_wifi_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.864s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/control_manager_node.py to control_manager_node.cpython-38.pyc
+[9.874s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/esp32_motor_node.py to esp32_motor_node.cpython-38.pyc
+[9.877s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/__init__.py to __init__.cpython-38.pyc
+[9.879s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/esp32_serial_node.py to esp32_serial_node.cpython-38.pyc
+[9.881s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/esp32_wifi_node.py to esp32_wifi_node.cpython-38.pyc
+[9.884s] running install_data
+[9.885s] copying resource/train_control -> /home/jetson/ws_1/install/train_control/share/ament_index/resource_index/packages
+[9.886s] copying package.xml -> /home/jetson/ws_1/install/train_control/share/train_control
+[9.887s] copying launch/train_sim.launch.py -> /home/jetson/ws_1/install/train_control/share/train_control/launch
+[9.888s] running install_egg_info
+[9.902s] Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info
+[10.053s] running install_scripts
+[10.163s] Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+[10.165s] Installing esp32_wifi script to /home/jetson/ws_1/install/train_control/lib/train_control
+[10.215s] writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'
+[10.409s] Invoked command in '/home/jetson/ws_1/src/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data --force

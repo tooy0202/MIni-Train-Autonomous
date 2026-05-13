@@ -12,18 +12,26 @@ class CameraNode(Node):
     def __init__(self):
         super().__init__('camera_node')
 
-        self.cap = cv2.VideoCapture(0)
+        self.declare_parameter('camera_id', 0)
+        self.declare_parameter('topic_name', '/camera/image_raw')
+
+        camera_id = self.get_parameter('camera_id').value
+        topic_name = self.get_parameter('topic_name').value
+
+        self.cap = cv2.VideoCapture(camera_id)
         self.bridge = CvBridge()
 
         self.image_pub = self.create_publisher(
             Image,
-            '/camera/image_raw',
+            topic_name,
             10
         )
 
         self.timer = self.create_timer(0.1, self.publish_frame)
 
-        self.get_logger().info('Camera Node started')
+        self.get_logger().info(
+            f'Camera Node started | camera_id={camera_id} | topic={topic_name}'
+        )
 
     def publish_frame(self):
         ret, frame = self.cap.read()

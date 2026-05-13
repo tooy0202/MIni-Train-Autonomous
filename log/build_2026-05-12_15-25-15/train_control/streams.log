@@ -1,0 +1,18 @@
+[9.104s] Invoking command in '/home/jetson/ws_1/build/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_control/build --no-deps symlink_data
+[11.142s] running develop
+[12.202s] running egg_info
+[12.206s] writing train_control.egg-info/PKG-INFO
+[12.208s] writing dependency_links to train_control.egg-info/dependency_links.txt
+[12.210s] writing entry points to train_control.egg-info/entry_points.txt
+[12.212s] writing requirements to train_control.egg-info/requires.txt
+[12.216s] writing top-level names to train_control.egg-info/top_level.txt
+[12.401s] reading manifest file 'train_control.egg-info/SOURCES.txt'
+[12.407s] writing manifest file 'train_control.egg-info/SOURCES.txt'
+[12.761s] running build_ext
+[12.763s] Creating /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train-control.egg-link (link to .)
+[12.768s] Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+[12.774s] Installing esp32_wifi script to /home/jetson/ws_1/install/train_control/lib/train_control
+[12.777s] 
+[12.785s] Installed /home/jetson/ws_1/build/train_control
+[12.788s] running symlink_data
+[12.934s] Invoked command in '/home/jetson/ws_1/build/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_control/build --no-deps symlink_data

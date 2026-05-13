@@ -1,0 +1,22 @@
+[7.977s] Invoking command in '/home/jetson/ws_1/build/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_vision/build --no-deps symlink_data --force
+[9.958s] running develop
+[11.085s] running egg_info
+[11.086s] writing train_vision.egg-info/PKG-INFO
+[11.087s] writing dependency_links to train_vision.egg-info/dependency_links.txt
+[11.090s] writing entry points to train_vision.egg-info/entry_points.txt
+[11.092s] writing requirements to train_vision.egg-info/requires.txt
+[11.094s] writing top-level names to train_vision.egg-info/top_level.txt
+[11.475s] reading manifest file 'train_vision.egg-info/SOURCES.txt'
+[11.623s] writing manifest file 'train_vision.egg-info/SOURCES.txt'
+[11.867s] running build_ext
+[12.007s] Creating /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/site.py
+[12.021s] Creating /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train-vision.egg-link (link to .)
+[12.026s] Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[12.027s] Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[12.029s] 
+[12.030s] Installed /home/jetson/ws_1/build/train_vision
+[12.030s] running symlink_data
+[12.031s] symbolically linking /home/jetson/ws_1/build/train_vision/resource/train_vision -> /home/jetson/ws_1/install/train_vision/share/ament_index/resource_index/packages
+[12.032s] symbolically linking /home/jetson/ws_1/build/train_vision/package.xml -> /home/jetson/ws_1/install/train_vision/share/train_vision
+[12.033s] symbolically linking /home/jetson/ws_1/build/train_vision/launch/vision.launch.py -> /home/jetson/ws_1/install/train_vision/share/train_vision/launch
+[12.185s] Invoked command in '/home/jetson/ws_1/build/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_vision/build --no-deps symlink_data --force

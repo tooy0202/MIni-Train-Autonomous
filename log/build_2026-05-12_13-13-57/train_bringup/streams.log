@@ -1,0 +1,20 @@
+[11.257s] Invoking command in '/home/jetson/ws_1/src/train_bringup': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data
+[13.600s] running egg_info
+[13.608s] writing ../../build/train_bringup/train_bringup.egg-info/PKG-INFO
+[13.610s] writing dependency_links to ../../build/train_bringup/train_bringup.egg-info/dependency_links.txt
+[13.626s] writing entry points to ../../build/train_bringup/train_bringup.egg-info/entry_points.txt
+[13.627s] writing requirements to ../../build/train_bringup/train_bringup.egg-info/requires.txt
+[13.627s] writing top-level names to ../../build/train_bringup/train_bringup.egg-info/top_level.txt
+[13.905s] reading manifest file '../../build/train_bringup/train_bringup.egg-info/SOURCES.txt'
+[13.915s] writing manifest file '../../build/train_bringup/train_bringup.egg-info/SOURCES.txt'
+[13.921s] running build
+[13.923s] running build_py
+[13.927s] running install
+[13.940s] running install_lib
+[13.941s] running install_data
+[13.941s] running install_egg_info
+[13.954s] removing '/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[13.959s] Copying ../../build/train_bringup/train_bringup.egg-info to /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup-0.0.0-py3.8.egg-info
+[13.981s] running install_scripts
+[14.097s] writing list of installed files to '/home/jetson/ws_1/build/train_bringup/install.log'
+[14.272s] Invoked command in '/home/jetson/ws_1/src/train_bringup' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data

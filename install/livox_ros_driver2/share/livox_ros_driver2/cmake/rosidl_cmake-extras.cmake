@@ -1,4 +1,1 @@
-# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
-
-set(livox_ros_driver2_IDL_FILES "msg/CustomPoint.idl;msg/CustomMsg.idl")
-set(livox_ros_driver2_INTERFACE_FILES "msg/CustomPoint.msg;msg/CustomMsg.msg")
+/home/jetson/ws_1/build/livox_ros_driver2/rosidl_cmake/rosidl_cmake-extras.cmake

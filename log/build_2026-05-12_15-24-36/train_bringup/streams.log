@@ -1,0 +1,16 @@
+[12.616s] Invoking command in '/home/jetson/ws_1/build/train_bringup': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_bringup/build --no-deps symlink_data
+[14.626s] running develop
+[16.131s] running egg_info
+[16.132s] writing train_bringup.egg-info/PKG-INFO
+[16.134s] writing dependency_links to train_bringup.egg-info/dependency_links.txt
+[16.151s] writing entry points to train_bringup.egg-info/entry_points.txt
+[16.154s] writing requirements to train_bringup.egg-info/requires.txt
+[16.154s] writing top-level names to train_bringup.egg-info/top_level.txt
+[16.438s] reading manifest file 'train_bringup.egg-info/SOURCES.txt'
+[16.445s] writing manifest file 'train_bringup.egg-info/SOURCES.txt'
+[16.697s] running build_ext
+[16.844s] Creating /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train-bringup.egg-link (link to .)
+[16.857s] 
+[16.858s] Installed /home/jetson/ws_1/build/train_bringup
+[16.858s] running symlink_data
+[17.038s] Invoked command in '/home/jetson/ws_1/build/train_bringup' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_bringup/build --no-deps symlink_data

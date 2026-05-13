@@ -1,0 +1,356 @@
+[1.392s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.393s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff89589b50>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff89589b50>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff89544af0>)
+[2.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.552s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.554s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ws_1'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.632s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.634s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.635s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.636s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.637s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.638s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.643s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore'
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore_ament_install'
+[2.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_pkg']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_pkg'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_meta']
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_meta'
+[2.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ros']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ros'
+[2.660s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_avoidance' with type 'ros.ament_python' and name 'lidar_avoidance'
+[2.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[2.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[2.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extension 'ignore'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extension 'ignore_ament_install'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extensions ['colcon_pkg']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extension 'colcon_pkg'
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extensions ['colcon_meta']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extension 'colcon_meta'
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extensions ['ros']
+[2.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_bringup) by extension 'ros'
+[2.679s] DEBUG:colcon.colcon_core.package_identification:Package 'src/train_bringup' with type 'ros.ament_python' and name 'train_bringup'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['ignore', 'ignore_ament_install']
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ignore'
+[2.681s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ignore_ament_install'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['colcon_pkg']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'colcon_pkg'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['colcon_meta']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'colcon_meta'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['ros']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ros'
+[2.688s] DEBUG:colcon.colcon_core.package_identification:Package 'src/train_control' with type 'ros.ament_python' and name 'train_control'
+[2.689s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['ignore', 'ignore_ament_install']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ignore'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ignore_ament_install'
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['colcon_pkg']
+[2.690s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'colcon_pkg'
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['colcon_meta']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'colcon_meta'
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['ros']
+[2.692s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ros'
+[2.696s] DEBUG:colcon.colcon_core.package_identification:Package 'src/train_vision' with type 'ros.ament_python' and name 'train_vision'
+[2.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.857s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jetson/ws_1/install
+[2.870s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[2.882s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.281s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_args' from command line to 'None'
+[3.282s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target' from command line to 'None'
+[3.282s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.282s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_cache' from command line to 'False'
+[3.282s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_clean_first' from command line to 'False'
+[3.283s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'cmake_force_configure' from command line to 'False'
+[3.283s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'ament_cmake_args' from command line to 'None'
+[3.283s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_cmake_args' from command line to 'None'
+[3.283s] Level 5:colcon.colcon_core.verb:set package 'livox_ros_driver2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.284s] DEBUG:colcon.colcon_core.verb:Building package 'livox_ros_driver2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/livox_ros_driver2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/livox_ros_driver2', 'merge_install': False, 'path': '/home/jetson/ws_1/src/livox_ros_driver2', 'symlink_install': False, 'test_result_base': None}
+[3.286s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_args' from command line to 'None'
+[3.286s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_target' from command line to 'None'
+[3.286s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.287s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'train_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.288s] DEBUG:colcon.colcon_core.verb:Building package 'train_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/train_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/train_bringup', 'merge_install': False, 'path': '/home/jetson/ws_1/src/train_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_args' from command line to 'None'
+[3.291s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_target' from command line to 'None'
+[3.291s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.291s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.291s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.291s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.292s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.292s] DEBUG:colcon.colcon_core.verb:Building package 'train_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/train_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/train_control', 'merge_install': False, 'path': '/home/jetson/ws_1/src/train_control', 'symlink_install': False, 'test_result_base': None}
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_args' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_target' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_clean_first' from command line to 'False'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'cmake_force_configure' from command line to 'False'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'ament_cmake_args' from command line to 'None'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[3.296s] Level 5:colcon.colcon_core.verb:set package 'train_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.296s] DEBUG:colcon.colcon_core.verb:Building package 'train_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/train_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/train_vision', 'merge_install': False, 'path': '/home/jetson/ws_1/src/train_vision', 'symlink_install': False, 'test_result_base': None}
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_args' from command line to 'None'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_target' from command line to 'None'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_clean_cache' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_clean_first' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'cmake_force_configure' from command line to 'False'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'ament_cmake_args' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'catkin_cmake_args' from command line to 'None'
+[3.301s] Level 5:colcon.colcon_core.verb:set package 'lidar_avoidance' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.301s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_avoidance' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/lidar_avoidance', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/lidar_avoidance', 'merge_install': False, 'path': '/home/jetson/ws_1/src/lidar_avoidance', 'symlink_install': False, 'test_result_base': None}
+[3.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.310s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ws_1/src/livox_ros_driver2' with build type 'ament_cmake'
+[3.310s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ws_1/src/livox_ros_driver2'
+[3.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.379s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ws_1/src/train_bringup' with build type 'ament_python'
+[3.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_bringup', 'ament_prefix_path')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/ament_prefix_path.ps1'
+[3.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/ament_prefix_path.dsv'
+[3.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/ament_prefix_path.sh'
+[3.421s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.421s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.468s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ws_1/src/train_control' with build type 'ament_python'
+[3.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_control', 'ament_prefix_path')
+[3.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.ps1'
+[3.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.dsv'
+[3.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.sh'
+[3.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.552s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ws_1/src/train_vision' with build type 'ament_python'
+[3.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_vision', 'ament_prefix_path')
+[3.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/ament_prefix_path.ps1'
+[3.579s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/ament_prefix_path.dsv'
+[3.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/ament_prefix_path.sh'
+[3.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6
+[5.632s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ws_1/src/train_bringup'
+[5.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.515s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ws_1/src/train_control'
+[7.524s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.504s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ws_1/src/train_vision'
+[9.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ws_1/build/livox_ros_driver2 -- -j6 -l6
+[9.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/build/livox_ros_driver2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ws_1/build/livox_ros_driver2
+[11.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[11.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ws_1/build/livox_ros_driver2
+[11.738s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2' for CMake module files
+[11.744s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2' for CMake config files
+[11.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[11.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[11.757s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[11.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[11.769s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib'
+[11.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[11.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[11.775s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[11.781s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/bin'
+[11.783s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[11.786s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages'
+[11.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[11.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[11.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[11.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[11.798s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/bin'
+[11.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[11.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[11.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[11.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[11.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[11.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[11.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(livox_ros_driver2)
+[11.842s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2' for CMake module files
+[11.847s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2' for CMake config files
+[11.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'cmake_prefix_path')
+[11.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.ps1'
+[11.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.dsv'
+[11.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/cmake_prefix_path.sh'
+[11.863s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib'
+[11.864s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'ld_library_path_lib')
+[11.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.ps1'
+[11.868s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.dsv'
+[11.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/ld_library_path_lib.sh'
+[11.875s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/bin'
+[11.876s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib/pkgconfig/livox_ros_driver2.pc'
+[11.877s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages'
+[11.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('livox_ros_driver2', 'pythonpath')
+[11.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.ps1'
+[11.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.dsv'
+[11.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/hook/pythonpath.sh'
+[11.890s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/livox_ros_driver2/bin'
+[11.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.ps1'
+[11.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.dsv'
+[11.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.sh'
+[11.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.bash'
+[11.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/livox_ros_driver2/share/livox_ros_driver2/package.zsh'
+[11.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/livox_ros_driver2/share/colcon-core/packages/livox_ros_driver2)
+[11.921s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ws_1/src/lidar_avoidance' with build type 'ament_python'
+[11.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_avoidance', 'ament_prefix_path')
+[11.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.ps1'
+[11.927s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.dsv'
+[11.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/ament_prefix_path.sh'
+[11.936s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.937s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.383s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ws_1/src/lidar_avoidance'
+[14.392s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/src/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[14.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/src/train_bringup': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data
+[14.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/build/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ws_1/build/train_vision/build
+[17.654s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup' for CMake module files
+[17.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/src/train_bringup' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data
+[17.665s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup' for CMake config files
+[17.674s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup/lib'
+[17.675s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup/bin'
+[17.676s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup/lib/pkgconfig/train_bringup.pc'
+[17.681s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages'
+[17.682s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_bringup', 'pythonpath')
+[17.684s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/pythonpath.ps1'
+[17.690s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/pythonpath.dsv'
+[17.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_bringup/share/train_bringup/hook/pythonpath.sh'
+[17.715s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_bringup/bin'
+[17.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(train_bringup)
+[17.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_bringup/share/train_bringup/package.ps1'
+[17.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/train_bringup/share/train_bringup/package.dsv'
+[17.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_bringup/share/train_bringup/package.sh'
+[17.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_bringup/share/train_bringup/package.bash'
+[17.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_bringup/share/train_bringup/package.zsh'
+[17.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/train_bringup/share/colcon-core/packages/train_bringup)
+[18.005s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control' for CMake module files
+[18.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/src/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[18.012s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control' for CMake config files
+[18.017s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib'
+[18.019s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/bin'
+[18.020s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib/pkgconfig/train_control.pc'
+[18.021s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages'
+[18.021s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_control', 'pythonpath')
+[18.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.ps1'
+[18.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.dsv'
+[18.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.sh'
+[18.101s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/bin'
+[18.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(train_control)
+[18.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.ps1'
+[18.122s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/train_control/share/train_control/package.dsv'
+[18.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.sh'
+[18.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.bash'
+[18.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.zsh'
+[18.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/train_control/share/colcon-core/packages/train_control)
+[18.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/src/lidar_avoidance': LD_LIBRARY_PATH=/home/jetson/ws_1/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/build/train_vision:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_avoidance build --build-base /home/jetson/ws_1/build/lidar_avoidance/build install --record /home/jetson/ws_1/build/lidar_avoidance/install.log --install-scripts $base/lib/lidar_avoidance --single-version-externally-managed install_data
+[18.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/build/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jetson/ws_1/build/train_vision/build
+[18.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/src/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data --force
+[20.952s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance' for CMake module files
+[20.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/src/lidar_avoidance' returned '0': LD_LIBRARY_PATH=/home/jetson/ws_1/install/livox_ros_driver2/lib:/usr/local/cuda-11.4/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/jetson/ws_1/build/lidar_avoidance/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/home/jetson/ws_1/build/train_vision:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_avoidance build --build-base /home/jetson/ws_1/build/lidar_avoidance/build install --record /home/jetson/ws_1/build/lidar_avoidance/install.log --install-scripts $base/lib/lidar_avoidance --single-version-externally-managed install_data
+[20.962s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance' for CMake config files
+[20.970s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance/lib'
+[20.971s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance/bin'
+[20.973s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance/lib/pkgconfig/lidar_avoidance.pc'
+[20.981s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages'
+[20.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_avoidance', 'pythonpath')
+[20.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.ps1'
+[21.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.dsv'
+[21.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/hook/pythonpath.sh'
+[21.014s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/lidar_avoidance/bin'
+[21.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_avoidance)
+[21.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/package.ps1'
+[21.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/package.dsv'
+[21.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/package.sh'
+[21.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/package.bash'
+[21.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/lidar_avoidance/share/lidar_avoidance/package.zsh'
+[21.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/lidar_avoidance/share/colcon-core/packages/lidar_avoidance)
+[21.392s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision' for CMake module files
+[21.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/src/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_vision build --build-base /home/jetson/ws_1/build/train_vision/build install --record /home/jetson/ws_1/build/train_vision/install.log --install-scripts $base/lib/train_vision --single-version-externally-managed install_data --force
+[21.399s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision' for CMake config files
+[21.405s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision/lib'
+[21.405s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision/bin'
+[21.406s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision/lib/pkgconfig/train_vision.pc'
+[21.407s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages'
+[21.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_vision', 'pythonpath')
+[21.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/pythonpath.ps1'
+[21.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/pythonpath.dsv'
+[21.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_vision/share/train_vision/hook/pythonpath.sh'
+[21.419s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_vision/bin'
+[21.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(train_vision)
+[21.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_vision/share/train_vision/package.ps1'
+[21.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/train_vision/share/train_vision/package.dsv'
+[21.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_vision/share/train_vision/package.sh'
+[21.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_vision/share/train_vision/package.bash'
+[21.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_vision/share/train_vision/package.zsh'
+[21.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/train_vision/share/colcon-core/packages/train_vision)
+[21.442s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.444s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.445s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.450s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.452s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.ps1'
+[21.459s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ws_1/install/_local_setup_util_ps1.py'
+[21.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.ps1'
+[21.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.sh'
+[21.485s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ws_1/install/_local_setup_util_sh.py'
+[21.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.sh'
+[21.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.bash'
+[21.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.bash'
+[21.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.zsh'
+[21.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.zsh'

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing train_control.egg-info/PKG-INFO
+writing dependency_links to train_control.egg-info/dependency_links.txt
+writing entry points to train_control.egg-info/entry_points.txt
+writing requirements to train_control.egg-info/requires.txt
+writing top-level names to train_control.egg-info/top_level.txt
+reading manifest file 'train_control.egg-info/SOURCES.txt'
+writing manifest file 'train_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train-control.egg-link (link to .)
+Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+Installing esp32_wifi script to /home/jetson/ws_1/install/train_control/lib/train_control
+
+Installed /home/jetson/ws_1/build/train_control
+running symlink_data

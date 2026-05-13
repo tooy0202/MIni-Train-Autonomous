@@ -1,0 +1,1 @@
+/home/jetson/ws_1/build/train_bringup/launch/full_system.launch.py

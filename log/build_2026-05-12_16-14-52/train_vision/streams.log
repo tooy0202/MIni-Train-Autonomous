@@ -1,0 +1,19 @@
+[9.244s] Invoking command in '/home/jetson/ws_1/build/train_vision': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_vision/build --no-deps symlink_data
+[11.079s] running develop
+[12.152s] running egg_info
+[12.157s] writing train_vision.egg-info/PKG-INFO
+[12.158s] writing dependency_links to train_vision.egg-info/dependency_links.txt
+[12.159s] writing entry points to train_vision.egg-info/entry_points.txt
+[12.160s] writing requirements to train_vision.egg-info/requires.txt
+[12.161s] writing top-level names to train_vision.egg-info/top_level.txt
+[12.360s] reading manifest file 'train_vision.egg-info/SOURCES.txt'
+[12.362s] writing manifest file 'train_vision.egg-info/SOURCES.txt'
+[12.603s] running build_ext
+[12.606s] Creating /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train-vision.egg-link (link to .)
+[12.613s] Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[12.615s] Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[12.617s] Installing pose_manager script to /home/jetson/ws_1/install/train_vision/lib/train_vision
+[12.620s] 
+[12.622s] Installed /home/jetson/ws_1/build/train_vision
+[12.624s] running symlink_data
+[12.831s] Invoked command in '/home/jetson/ws_1/build/train_vision' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jetson/ws_1/build/train_vision/build --no-deps symlink_data

@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.002552] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.002821] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.003923] (-) JobUnselected: {'identifier': 'train_control'}
+[0.004211] (train_vision) JobQueued: {'identifier': 'train_vision', 'dependencies': OrderedDict()}
+[0.005323] (train_vision) JobStarted: {'identifier': 'train_vision'}
+[0.098143] (-) TimerEvent: {}
+[0.199623] (-) TimerEvent: {}
+[0.302129] (-) TimerEvent: {}
+[0.406044] (-) TimerEvent: {}
+[0.510180] (-) TimerEvent: {}
+[0.611303] (-) TimerEvent: {}
+[0.712732] (-) TimerEvent: {}
+[0.861760] (-) TimerEvent: {}
+[0.963926] (-) TimerEvent: {}
+[1.064987] (-) TimerEvent: {}
+[1.166025] (-) TimerEvent: {}
+[1.267114] (-) TimerEvent: {}
+[1.368349] (-) TimerEvent: {}
+[1.469457] (-) TimerEvent: {}
+[1.570626] (-) TimerEvent: {}
+[1.672098] (-) TimerEvent: {}
+[1.773308] (-) TimerEvent: {}
+[1.874456] (-) TimerEvent: {}
+[1.975759] (-) TimerEvent: {}
+[2.076807] (-) TimerEvent: {}
+[2.177895] (-) TimerEvent: {}
+[2.279136] (-) TimerEvent: {}
+[2.380752] (-) TimerEvent: {}
+[2.482000] (-) TimerEvent: {}
+[2.597325] (-) TimerEvent: {}
+[2.705055] (-) TimerEvent: {}
+[2.817670] (-) TimerEvent: {}
+[2.919892] (-) TimerEvent: {}
+[3.022522] (-) TimerEvent: {}
+[3.123854] (-) TimerEvent: {}
+[3.224899] (-) TimerEvent: {}
+[3.325982] (-) TimerEvent: {}
+[3.426976] (-) TimerEvent: {}
+[3.528179] (-) TimerEvent: {}
+[3.629364] (-) TimerEvent: {}
+[3.730649] (-) TimerEvent: {}
+[3.831763] (-) TimerEvent: {}
+[3.932933] (-) TimerEvent: {}
+[4.034000] (-) TimerEvent: {}
+[4.135057] (-) TimerEvent: {}
+[4.236223] (-) TimerEvent: {}
+[4.337330] (-) TimerEvent: {}
+[4.438482] (-) TimerEvent: {}
+[4.539635] (-) TimerEvent: {}
+[4.640810] (-) TimerEvent: {}
+[4.743298] (-) TimerEvent: {}
+[4.844778] (-) TimerEvent: {}
+[4.946341] (-) TimerEvent: {}
+[5.048138] (-) TimerEvent: {}
+[5.149650] (-) TimerEvent: {}
+[5.250808] (-) TimerEvent: {}
+[5.352015] (-) TimerEvent: {}
+[5.453105] (-) TimerEvent: {}
+[5.554182] (-) TimerEvent: {}
+[5.655320] (-) TimerEvent: {}
+[5.756353] (-) TimerEvent: {}
+[5.857335] (-) TimerEvent: {}
+[5.958422] (-) TimerEvent: {}
+[6.059617] (-) TimerEvent: {}
+[6.160769] (-) TimerEvent: {}
+[6.261887] (-) TimerEvent: {}
+[6.363348] (-) TimerEvent: {}
+[6.464790] (-) TimerEvent: {}
+[6.566314] (-) TimerEvent: {}
+[6.667845] (-) TimerEvent: {}
+[6.768755] (-) TimerEvent: {}
+[6.870201] (-) TimerEvent: {}
+[6.971292] (-) TimerEvent: {}
+[7.072620] (-) TimerEvent: {}
+[7.173955] (-) TimerEvent: {}
+[7.275353] (-) TimerEvent: {}
+[7.376851] (-) TimerEvent: {}
+[7.478329] (-) TimerEvent: {}
+[7.579794] (-) TimerEvent: {}
+[7.680899] (-) TimerEvent: {}
+[7.782014] (-) TimerEvent: {}
+[7.882878] (-) TimerEvent: {}
+[7.983919] (-) TimerEvent: {}
+[8.084832] (-) TimerEvent: {}
+[8.176806] (train_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/train_vision', 'build', '--build-base', '/home/jetson/ws_1/build/train_vision/build', 'install', '--record', '/home/jetson/ws_1/build/train_vision/install.log', '--install-scripts', '$base/lib/train_vision', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/ws_1/src/train_vision', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.153 52611 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'TERM_PROGRAM_VERSION': '1.119.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-ec7d089d-de30-479f-b22a-07276551b8db.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-6f39a69dc820ec0d.txt', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/train_vision', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.153 52611 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[8.197519] (-) TimerEvent: {}
+[8.299654] (-) TimerEvent: {}
+[8.401478] (-) TimerEvent: {}
+[8.504563] (-) TimerEvent: {}
+[8.605635] (-) TimerEvent: {}
+[8.706608] (-) TimerEvent: {}
+[8.807628] (-) TimerEvent: {}
+[8.908521] (-) TimerEvent: {}
+[9.009506] (-) TimerEvent: {}
+[9.110485] (-) TimerEvent: {}
+[9.211631] (-) TimerEvent: {}
+[9.312691] (-) TimerEvent: {}
+[9.413775] (-) TimerEvent: {}
+[9.514852] (-) TimerEvent: {}
+[9.616025] (-) TimerEvent: {}
+[9.717023] (-) TimerEvent: {}
+[9.818363] (-) TimerEvent: {}
+[9.919407] (-) TimerEvent: {}
+[9.986531] (train_vision) StdoutLine: {'line': b'running egg_info\n'}
+[9.990104] (train_vision) StdoutLine: {'line': b'writing ../../build/train_vision/train_vision.egg-info/PKG-INFO\n'}
+[9.992567] (train_vision) StdoutLine: {'line': b'writing dependency_links to ../../build/train_vision/train_vision.egg-info/dependency_links.txt\n'}
+[9.994061] (train_vision) StdoutLine: {'line': b'writing entry points to ../../build/train_vision/train_vision.egg-info/entry_points.txt\n'}
+[10.000931] (train_vision) StdoutLine: {'line': b'writing requirements to ../../build/train_vision/train_vision.egg-info/requires.txt\n'}
+[10.001871] (train_vision) StdoutLine: {'line': b'writing top-level names to ../../build/train_vision/train_vision.egg-info/top_level.txt\n'}
+[10.019535] (-) TimerEvent: {}
+[10.121367] (-) TimerEvent: {}
+[10.222462] (-) TimerEvent: {}
+[10.323485] (-) TimerEvent: {}
+[10.344225] (train_vision) StdoutLine: {'line': b"reading manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'\n"}
+[10.423687] (-) TimerEvent: {}
+[10.489684] (train_vision) StdoutLine: {'line': b"writing manifest file '../../build/train_vision/train_vision.egg-info/SOURCES.txt'\n"}
+[10.490941] (train_vision) StdoutLine: {'line': b'running build\n'}
+[10.491619] (train_vision) StdoutLine: {'line': b'running build_py\n'}
+[10.492567] (train_vision) StdoutLine: {'line': b'copying train_vision/pose_node.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision\n'}
+[10.494341] (train_vision) StdoutLine: {'line': b'copying train_vision/overlay_drawer.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision\n'}
+[10.496084] (train_vision) StdoutLine: {'line': b'copying train_vision/image_logger.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision\n'}
+[10.497631] (train_vision) StdoutLine: {'line': b'copying train_vision/alert_manager.py -> /home/jetson/ws_1/build/train_vision/build/lib/train_vision\n'}
+[10.500179] (train_vision) StdoutLine: {'line': b'running install\n'}
+[10.505038] (train_vision) StdoutLine: {'line': b'running install_lib\n'}
+[10.511295] (train_vision) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/pose_node.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision\n'}
+[10.513156] (train_vision) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/overlay_drawer.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision\n'}
+[10.514603] (train_vision) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/image_logger.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision\n'}
+[10.516142] (train_vision) StdoutLine: {'line': b'copying /home/jetson/ws_1/build/train_vision/build/lib/train_vision/alert_manager.py -> /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision\n'}
+[10.520401] (train_vision) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/pose_node.py to pose_node.cpython-38.pyc\n'}
+[10.523807] (-) TimerEvent: {}
+[10.534246] (train_vision) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/overlay_drawer.py to overlay_drawer.cpython-38.pyc\n'}
+[10.541654] (train_vision) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/image_logger.py to image_logger.cpython-38.pyc\n'}
+[10.544262] (train_vision) StdoutLine: {'line': b'byte-compiling /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision/alert_manager.py to alert_manager.cpython-38.pyc\n'}
+[10.546604] (train_vision) StdoutLine: {'line': b'running install_data\n'}
+[10.547852] (train_vision) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.558083] (train_vision) StdoutLine: {'line': b"removing '/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[10.561193] (train_vision) StdoutLine: {'line': b'Copying ../../build/train_vision/train_vision.egg-info to /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train_vision-0.0.0-py3.8.egg-info\n'}
+[10.624070] (-) TimerEvent: {}
+[10.677314] (train_vision) StdoutLine: {'line': b'running install_scripts\n'}
+[10.724309] (-) TimerEvent: {}
+[10.779541] (train_vision) StdoutLine: {'line': b'Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[10.780839] (train_vision) StdoutLine: {'line': b'Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[10.824549] (-) TimerEvent: {}
+[10.925655] (-) TimerEvent: {}
+[10.929360] (train_vision) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ws_1/build/train_vision/install.log'\n"}
+[11.025948] (-) TimerEvent: {}
+[11.060756] (train_vision) CommandEnded: {'returncode': 0}
+[11.126288] (-) TimerEvent: {}
+[11.227560] (-) TimerEvent: {}
+[11.329205] (-) TimerEvent: {}
+[11.432477] (-) TimerEvent: {}
+[11.438363] (train_vision) JobEnded: {'identifier': 'train_vision', 'rc': 0}
+[11.444357] (-) EventReactorShutdown: {}

@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/jetson/ws_1/build/livox_ros_driver2/ament_cmake_environment_hooks/path.dsv

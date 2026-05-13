@@ -1,0 +1,115 @@
+[0.000000] (-) TimerEvent: {}
+[0.002778] (-) JobUnselected: {'identifier': 'lidar_avoidance'}
+[0.003815] (-) JobUnselected: {'identifier': 'livox_ros_driver2'}
+[0.004020] (-) JobUnselected: {'identifier': 'train_bringup'}
+[0.004207] (-) JobUnselected: {'identifier': 'train_control'}
+[0.005416] (train_vision) JobQueued: {'identifier': 'train_vision', 'dependencies': OrderedDict()}
+[0.005973] (train_vision) JobStarted: {'identifier': 'train_vision'}
+[0.098296] (-) TimerEvent: {}
+[0.206500] (-) TimerEvent: {}
+[0.316541] (-) TimerEvent: {}
+[0.420759] (-) TimerEvent: {}
+[0.522047] (-) TimerEvent: {}
+[0.623411] (-) TimerEvent: {}
+[0.724407] (-) TimerEvent: {}
+[0.825482] (-) TimerEvent: {}
+[0.926599] (-) TimerEvent: {}
+[1.027737] (-) TimerEvent: {}
+[1.128754] (-) TimerEvent: {}
+[1.229903] (-) TimerEvent: {}
+[1.331336] (-) TimerEvent: {}
+[1.432798] (-) TimerEvent: {}
+[1.534384] (-) TimerEvent: {}
+[1.635850] (-) TimerEvent: {}
+[1.736905] (-) TimerEvent: {}
+[1.838029] (-) TimerEvent: {}
+[1.941154] (-) TimerEvent: {}
+[2.048847] (-) TimerEvent: {}
+[2.152011] (-) TimerEvent: {}
+[2.253388] (-) TimerEvent: {}
+[2.354820] (-) TimerEvent: {}
+[2.456208] (-) TimerEvent: {}
+[2.557493] (-) TimerEvent: {}
+[2.658968] (-) TimerEvent: {}
+[2.760355] (-) TimerEvent: {}
+[2.861729] (-) TimerEvent: {}
+[2.963039] (-) TimerEvent: {}
+[3.064293] (-) TimerEvent: {}
+[3.165676] (-) TimerEvent: {}
+[3.266950] (-) TimerEvent: {}
+[3.368301] (-) TimerEvent: {}
+[3.469324] (-) TimerEvent: {}
+[3.570350] (-) TimerEvent: {}
+[3.671286] (-) TimerEvent: {}
+[3.772391] (-) TimerEvent: {}
+[3.873417] (-) TimerEvent: {}
+[3.974543] (-) TimerEvent: {}
+[4.075518] (-) TimerEvent: {}
+[4.176554] (-) TimerEvent: {}
+[4.277738] (-) TimerEvent: {}
+[4.378816] (-) TimerEvent: {}
+[4.479885] (-) TimerEvent: {}
+[4.581041] (-) TimerEvent: {}
+[4.672140] (train_vision) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jetson/ws_1/build/train_vision/build', '--no-deps', 'symlink_data'], 'cwd': '/home/jetson/ws_1/build/train_vision', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.30.152 56453 22', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-11.4/lib64:/home/jetson/ws_1/install/livox_ros_driver2/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ws_1/src', 'TERM_PROGRAM_VERSION': '1.119.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-674ca90e-0b22-4879-878f-eda1ed5c3516.sock', 'JETSON_L4T': '35.6.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/ws_1/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (Developer kit)', 'JETSON_SERIAL_NUMBER': '1424620042367', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-11.4/bin:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/jetson/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/jetson/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'LC_ADDRESS': 'th_TH.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jetson/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-a95f1a638a5d4f66.txt', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/jetson/.vscode-server/data/User/workspaceStorage/602223afb62bcc1e34041c8e7dc6f219/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'th_TH.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-cc5edb5c15.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/ws_1/install/train_bringup:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/jetson/ws_1/build/train_vision', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.30.152 56453 192.168.30.93 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ws_1/build/train_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:/home/jetson/ws_1/build/train_vision:/home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:/home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages:/home/jetson/ws_1/install/livox_ros_driver2/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '', 'CMAKE_PREFIX_PATH': '/home/jetson/ws_1/install/livox_ros_driver2', 'JETSON_P_NUMBER': 'p3668-0000'}, 'shell': False}
+[4.705193] (-) TimerEvent: {}
+[4.861903] (-) TimerEvent: {}
+[4.972853] (-) TimerEvent: {}
+[5.074761] (-) TimerEvent: {}
+[5.175677] (-) TimerEvent: {}
+[5.276567] (-) TimerEvent: {}
+[5.377444] (-) TimerEvent: {}
+[5.478409] (-) TimerEvent: {}
+[5.579362] (-) TimerEvent: {}
+[5.680380] (-) TimerEvent: {}
+[5.781404] (-) TimerEvent: {}
+[5.882561] (-) TimerEvent: {}
+[5.983699] (-) TimerEvent: {}
+[6.084671] (-) TimerEvent: {}
+[6.185738] (-) TimerEvent: {}
+[6.286829] (-) TimerEvent: {}
+[6.388358] (-) TimerEvent: {}
+[6.489988] (-) TimerEvent: {}
+[6.591503] (-) TimerEvent: {}
+[6.689808] (train_vision) StdoutLine: {'line': b'running develop\n'}
+[6.694231] (-) TimerEvent: {}
+[6.795457] (-) TimerEvent: {}
+[6.896896] (-) TimerEvent: {}
+[6.998439] (-) TimerEvent: {}
+[7.099827] (-) TimerEvent: {}
+[7.201216] (-) TimerEvent: {}
+[7.302612] (-) TimerEvent: {}
+[7.403962] (-) TimerEvent: {}
+[7.505363] (-) TimerEvent: {}
+[7.606851] (-) TimerEvent: {}
+[7.708247] (-) TimerEvent: {}
+[7.809673] (-) TimerEvent: {}
+[7.910774] (-) TimerEvent: {}
+[7.942823] (train_vision) StdoutLine: {'line': b'running egg_info\n'}
+[7.943970] (train_vision) StdoutLine: {'line': b'writing train_vision.egg-info/PKG-INFO\n'}
+[7.945392] (train_vision) StdoutLine: {'line': b'writing dependency_links to train_vision.egg-info/dependency_links.txt\n'}
+[7.947361] (train_vision) StdoutLine: {'line': b'writing entry points to train_vision.egg-info/entry_points.txt\n'}
+[7.949821] (train_vision) StdoutLine: {'line': b'writing requirements to train_vision.egg-info/requires.txt\n'}
+[7.953733] (train_vision) StdoutLine: {'line': b'writing top-level names to train_vision.egg-info/top_level.txt\n'}
+[8.011022] (-) TimerEvent: {}
+[8.112253] (-) TimerEvent: {}
+[8.140657] (train_vision) StdoutLine: {'line': b"reading manifest file 'train_vision.egg-info/SOURCES.txt'\n"}
+[8.212450] (-) TimerEvent: {}
+[8.286373] (train_vision) StdoutLine: {'line': b"writing manifest file 'train_vision.egg-info/SOURCES.txt'\n"}
+[8.312628] (-) TimerEvent: {}
+[8.413790] (-) TimerEvent: {}
+[8.514935] (-) TimerEvent: {}
+[8.525994] (train_vision) StdoutLine: {'line': b'running build_ext\n'}
+[8.615157] (-) TimerEvent: {}
+[8.666911] (train_vision) StdoutLine: {'line': b'Creating /home/jetson/ws_1/install/train_vision/lib/python3.8/site-packages/train-vision.egg-link (link to .)\n'}
+[8.672082] (train_vision) StdoutLine: {'line': b'Installing camera script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[8.674079] (train_vision) StdoutLine: {'line': b'Installing pose script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[8.675211] (train_vision) StdoutLine: {'line': b'Installing pose_manager script to /home/jetson/ws_1/install/train_vision/lib/train_vision\n'}
+[8.678098] (train_vision) StdoutLine: {'line': b'\n'}
+[8.678816] (train_vision) StdoutLine: {'line': b'Installed /home/jetson/ws_1/build/train_vision\n'}
+[8.679577] (train_vision) StdoutLine: {'line': b'running symlink_data\n'}
+[8.715380] (-) TimerEvent: {}
+[8.820924] (train_vision) CommandEnded: {'returncode': 0}
+[8.840134] (-) TimerEvent: {}
+[8.942467] (train_vision) JobEnded: {'identifier': 'train_vision', 'rc': 0}
+[8.947891] (-) TimerEvent: {}
+[8.948341] (-) EventReactorShutdown: {}

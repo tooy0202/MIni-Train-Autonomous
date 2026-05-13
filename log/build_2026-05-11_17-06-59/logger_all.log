@@ -1,0 +1,157 @@
+[1.582s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'train_control']
+[1.583s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff862a4b20>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['train_control'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff862a4b20>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8625eac0>)
+[2.940s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.941s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.942s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.943s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.944s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.945s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ws_1'
+[2.946s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.947s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.948s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.949s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.950s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.952s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.953s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.034s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.035s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.182s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.185s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.187s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.188s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.189s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.190s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.191s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.192s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.193s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.194s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ignore', 'ignore_ament_install']
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore'
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ignore_ament_install'
+[3.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_pkg']
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_pkg'
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['colcon_meta']
+[3.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'colcon_meta'
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extensions ['ros']
+[3.198s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_avoidance) by extension 'ros'
+[3.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_avoidance' with type 'ros.ament_python' and name 'lidar_avoidance'
+[3.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ignore', 'ignore_ament_install']
+[3.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore'
+[3.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ignore_ament_install'
+[3.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_pkg']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_pkg'
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['colcon_meta']
+[3.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'colcon_meta'
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extensions ['ros']
+[3.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/livox_ros_driver2) by extension 'ros'
+[3.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/livox_ros_driver2' with type 'ros.ament_cmake' and name 'livox_ros_driver2'
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['ignore', 'ignore_ament_install']
+[3.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ignore'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ignore_ament_install'
+[3.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['colcon_pkg']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'colcon_pkg'
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['colcon_meta']
+[3.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'colcon_meta'
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extensions ['ros']
+[3.233s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_control) by extension 'ros'
+[3.237s] DEBUG:colcon.colcon_core.package_identification:Package 'src/train_control' with type 'ros.ament_python' and name 'train_control'
+[3.238s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['ignore', 'ignore_ament_install']
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ignore'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ignore_ament_install'
+[3.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['colcon_pkg']
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'colcon_pkg'
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['colcon_meta']
+[3.240s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'colcon_meta'
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extensions ['ros']
+[3.241s] Level 1:colcon.colcon_core.package_identification:_identify(src/train_vision) by extension 'ros'
+[3.246s] DEBUG:colcon.colcon_core.package_identification:Package 'src/train_vision' with type 'ros.ament_python' and name 'train_vision'
+[3.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'livox_ros_driver2' in 'src/livox_ros_driver2'
+[3.399s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'train_vision' in 'src/train_vision'
+[3.400s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lidar_avoidance' in 'src/lidar_avoidance'
+[3.402s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[3.416s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/jetson/ws_1/install
+[3.429s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 258 installed packages in /opt/ros/foxy
+[3.439s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.832s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_args' from command line to 'None'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_target' from command line to 'None'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.833s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_clean_cache' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_clean_first' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'cmake_force_configure' from command line to 'False'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'ament_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'catkin_cmake_args' from command line to 'None'
+[3.834s] Level 5:colcon.colcon_core.verb:set package 'train_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.835s] DEBUG:colcon.colcon_core.verb:Building package 'train_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ws_1/build/train_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ws_1/install/train_control', 'merge_install': False, 'path': '/home/jetson/ws_1/src/train_control', 'symlink_install': False, 'test_result_base': None}
+[3.835s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.842s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.843s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ws_1/src/train_control' with build type 'ament_python'
+[3.844s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_control', 'ament_prefix_path')
+[3.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.ps1'
+[3.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.dsv'
+[3.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/ament_prefix_path.sh'
+[3.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.638s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ws_1/src/train_control'
+[5.645s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.645s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ws_1/src/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[10.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ws_1/src/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[10.527s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control' for CMake module files
+[10.531s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control' for CMake config files
+[10.539s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib'
+[10.540s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/bin'
+[10.541s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib/pkgconfig/train_control.pc'
+[10.543s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages'
+[10.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('train_control', 'pythonpath')
+[10.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.ps1'
+[10.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.dsv'
+[10.554s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ws_1/install/train_control/share/train_control/hook/pythonpath.sh'
+[10.559s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ws_1/install/train_control/bin'
+[10.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(train_control)
+[10.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.ps1'
+[10.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ws_1/install/train_control/share/train_control/package.dsv'
+[10.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.sh'
+[10.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.bash'
+[10.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ws_1/install/train_control/share/train_control/package.zsh'
+[10.584s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ws_1/install/train_control/share/colcon-core/packages/train_control)
+[10.588s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.590s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.591s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.594s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.ps1'
+[10.602s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ws_1/install/_local_setup_util_ps1.py'
+[10.609s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.ps1'
+[10.617s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.sh'
+[10.620s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ws_1/install/_local_setup_util_sh.py'
+[10.624s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.sh'
+[10.631s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.bash'
+[10.634s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.bash'
+[10.640s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ws_1/install/local_setup.zsh'
+[10.643s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ws_1/install/setup.zsh'

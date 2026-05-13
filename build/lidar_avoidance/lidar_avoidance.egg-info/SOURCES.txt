@@ -11,7 +11,11 @@ setup.py
 launch/livox_only.launch.py
 lidar_avoidance/__init__.py
 lidar_avoidance/avoidance_node.py
+lidar_avoidance.egg-info/PKG-INFO
+lidar_avoidance.egg-info/SOURCES.txt
+lidar_avoidance.egg-info/dependency_links.txt
+lidar_avoidance.egg-info/entry_points.txt
+lidar_avoidance.egg-info/requires.txt
+lidar_avoidance.egg-info/top_level.txt
+lidar_avoidance.egg-info/zip-safe
 resource/lidar_avoidance
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

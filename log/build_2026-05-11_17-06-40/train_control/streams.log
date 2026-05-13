@@ -1,0 +1,28 @@
+[7.379s] Invoking command in '/home/jetson/ws_1/src/train_control': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data
+[9.141s] running egg_info
+[9.143s] writing ../../build/train_control/train_control.egg-info/PKG-INFO
+[9.145s] writing dependency_links to ../../build/train_control/train_control.egg-info/dependency_links.txt
+[9.147s] writing entry points to ../../build/train_control/train_control.egg-info/entry_points.txt
+[9.301s] writing requirements to ../../build/train_control/train_control.egg-info/requires.txt
+[9.301s] writing top-level names to ../../build/train_control/train_control.egg-info/top_level.txt
+[9.549s] reading manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[9.695s] writing manifest file '../../build/train_control/train_control.egg-info/SOURCES.txt'
+[9.696s] running build
+[9.697s] running build_py
+[9.698s] copying train_control/esp32_motor_node.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control
+[9.699s] copying train_control/esp32_serial_node.py -> /home/jetson/ws_1/build/train_control/build/lib/train_control
+[9.701s] running install
+[9.705s] running install_lib
+[9.712s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/esp32_motor_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.713s] copying /home/jetson/ws_1/build/train_control/build/lib/train_control/esp32_serial_node.py -> /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control
+[9.717s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/esp32_motor_node.py to esp32_motor_node.cpython-38.pyc
+[9.726s] byte-compiling /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control/esp32_serial_node.py to esp32_serial_node.cpython-38.pyc
+[9.729s] running install_data
+[9.730s] running install_egg_info
+[9.741s] removing '/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info' (and everything under it)
+[9.743s] Copying ../../build/train_control/train_control.egg-info to /home/jetson/ws_1/install/train_control/lib/python3.8/site-packages/train_control-0.0.0-py3.8.egg-info
+[9.890s] running install_scripts
+[9.987s] Installing control_manager script to /home/jetson/ws_1/install/train_control/lib/train_control
+[9.988s] Installing esp32_serial script to /home/jetson/ws_1/install/train_control/lib/train_control
+[9.993s] writing list of installed files to '/home/jetson/ws_1/build/train_control/install.log'
+[10.116s] Invoked command in '/home/jetson/ws_1/src/train_control' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_control build --build-base /home/jetson/ws_1/build/train_control/build install --record /home/jetson/ws_1/build/train_control/install.log --install-scripts $base/lib/train_control --single-version-externally-managed install_data

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing lidar_avoidance.egg-info/PKG-INFO
+writing dependency_links to lidar_avoidance.egg-info/dependency_links.txt
+writing entry points to lidar_avoidance.egg-info/entry_points.txt
+writing requirements to lidar_avoidance.egg-info/requires.txt
+writing top-level names to lidar_avoidance.egg-info/top_level.txt
+reading manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+writing manifest file 'lidar_avoidance.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/ws_1/install/lidar_avoidance/lib/python3.8/site-packages/lidar-avoidance.egg-link (link to .)
+Installing avoidance script to /home/jetson/ws_1/install/lidar_avoidance/lib/lidar_avoidance
+
+Installed /home/jetson/ws_1/build/lidar_avoidance
+running symlink_data

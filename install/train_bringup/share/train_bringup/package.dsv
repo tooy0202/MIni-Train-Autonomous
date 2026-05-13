@@ -1,0 +1,9 @@
+source;share/train_bringup/hook/pythonpath.ps1
+source;share/train_bringup/hook/pythonpath.dsv
+source;share/train_bringup/hook/pythonpath.sh
+source;share/train_bringup/hook/ament_prefix_path.ps1
+source;share/train_bringup/hook/ament_prefix_path.dsv
+source;share/train_bringup/hook/ament_prefix_path.sh
+source;../../build/train_bringup/share/train_bringup/hook/pythonpath_develop.ps1
+source;../../build/train_bringup/share/train_bringup/hook/pythonpath_develop.dsv
+source;../../build/train_bringup/share/train_bringup/hook/pythonpath_develop.sh

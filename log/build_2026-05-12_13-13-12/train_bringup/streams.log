@@ -1,0 +1,35 @@
+[4.627s] Invoking command in '/home/jetson/ws_1/src/train_bringup': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data
+[6.260s] running egg_info
+[6.261s] creating ../../build/train_bringup/train_bringup.egg-info
+[6.262s] writing ../../build/train_bringup/train_bringup.egg-info/PKG-INFO
+[6.264s] writing dependency_links to ../../build/train_bringup/train_bringup.egg-info/dependency_links.txt
+[6.265s] writing entry points to ../../build/train_bringup/train_bringup.egg-info/entry_points.txt
+[6.266s] writing requirements to ../../build/train_bringup/train_bringup.egg-info/requires.txt
+[6.267s] writing top-level names to ../../build/train_bringup/train_bringup.egg-info/top_level.txt
+[6.276s] writing manifest file '../../build/train_bringup/train_bringup.egg-info/SOURCES.txt'
+[6.478s] reading manifest file '../../build/train_bringup/train_bringup.egg-info/SOURCES.txt'
+[6.482s] writing manifest file '../../build/train_bringup/train_bringup.egg-info/SOURCES.txt'
+[6.483s] running build
+[6.484s] running build_py
+[6.485s] creating /home/jetson/ws_1/build/train_bringup/build
+[6.486s] creating /home/jetson/ws_1/build/train_bringup/build/lib
+[6.488s] creating /home/jetson/ws_1/build/train_bringup/build/lib/train_bringup
+[6.489s] copying train_bringup/__init__.py -> /home/jetson/ws_1/build/train_bringup/build/lib/train_bringup
+[6.491s] running install
+[6.497s] running install_lib
+[6.504s] creating /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup
+[6.505s] copying /home/jetson/ws_1/build/train_bringup/build/lib/train_bringup/__init__.py -> /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup
+[6.508s] byte-compiling /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup/__init__.py to __init__.cpython-38.pyc
+[6.516s] running install_data
+[6.518s] creating /home/jetson/ws_1/install/train_bringup/share/ament_index
+[6.519s] creating /home/jetson/ws_1/install/train_bringup/share/ament_index/resource_index
+[6.520s] creating /home/jetson/ws_1/install/train_bringup/share/ament_index/resource_index/packages
+[6.522s] copying resource/train_bringup -> /home/jetson/ws_1/install/train_bringup/share/ament_index/resource_index/packages
+[6.523s] copying package.xml -> /home/jetson/ws_1/install/train_bringup/share/train_bringup
+[6.523s] creating /home/jetson/ws_1/install/train_bringup/share/train_bringup/launch
+[6.524s] copying launch/full_system.launch.py -> /home/jetson/ws_1/install/train_bringup/share/train_bringup/launch
+[6.525s] running install_egg_info
+[6.535s] Copying ../../build/train_bringup/train_bringup.egg-info to /home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages/train_bringup-0.0.0-py3.8.egg-info
+[6.544s] running install_scripts
+[6.647s] writing list of installed files to '/home/jetson/ws_1/build/train_bringup/install.log'
+[6.773s] Invoked command in '/home/jetson/ws_1/src/train_bringup' returned '0': PYTHONPATH=/home/jetson/ws_1/build/train_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/ws_1/install/train_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/train_bringup build --build-base /home/jetson/ws_1/build/train_bringup/build install --record /home/jetson/ws_1/build/train_bringup/install.log --install-scripts $base/lib/train_bringup --single-version-externally-managed install_data

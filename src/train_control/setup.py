@@ -29,6 +29,8 @@ setup(
     entry_points={
         'console_scripts': [
             'control_manager = train_control.control_manager_node:main',
+            # 'esp32_serial = train_control.esp32_serial_node:main',
+            'esp32_wifi = train_control.esp32_wifi_node:main',
         ],
     },
 )

@@ -1,1 +1,1 @@
-/home/jetson/ws_1/install/lidar_avoidance:/opt/ros/foxy
+/home/jetson/ws_1/install/train_bringup:/home/jetson/ws_1/install/train_vision:/home/jetson/ws_1/install/train_control:/home/jetson/ws_1/install/lidar_avoidance:/home/jetson/ws_1/install/livox_ros_driver2:/opt/ros/foxy
